@@ -1001,6 +1001,9 @@ h1 span {
   border-top: 1px solid rgb(53 60 93 / 20%);
 }
 
+.ethics-panel { border-inline-start-color: var(--yellow); }
+.ethics-panel dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
 .case-study-slide .gathering-panel { border-inline-start-color: var(--pink); }
 
 .case-report { grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr); }

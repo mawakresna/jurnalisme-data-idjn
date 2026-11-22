@@ -1,0 +1,49 @@
+periode,wilayah,dimensi,kelompok,jenis_kelamin,bekerja_orang,pengangguran_orang,angkatan_kerja_orang,penduduk_usia_kerja_orang,tpt_persen,tpak_persen,tabel_bps,halaman_bps
+2026-02,Provinsi Jambi,Umur,15–19,Total,49349,15170,64519,302642,23.51,21.32,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,20–24,Total,166964,30059,197023,299649,15.26,65.75,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,25–29,Total,200368,9526,209894,301885,4.54,69.53,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,30–34,Total,211942,3531,215473,298684,1.64,72.14,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,35–39,Total,210251,4934,215185,295220,2.29,72.89,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,40–44,Total,224372,1954,226326,279765,0.86,80.90,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,45–49,Total,209937,2907,212844,262927,1.37,80.95,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,50–54,Total,175268,1399,176667,231593,0.79,76.28,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,55–59,Total,146186,978,147164,190407,0.66,77.29,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,60+,Total,202142,4159,206301,386194,2.02,53.42,Tabel 2.1,25
+2026-02,Provinsi Jambi,Umur,15–19,Laki-laki,37233,12170,49403,155517,24.63,31.77,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,20–24,Laki-laki,109733,18648,128381,153416,14.53,83.68,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,25–29,Laki-laki,138037,7444,145481,152737,5.12,95.25,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,30–34,Laki-laki,145771,3074,148845,150843,2.07,98.68,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,35–39,Laki-laki,141841,4622,146463,148896,3.16,98.37,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,40–44,Laki-laki,139361,1954,141315,141315,1.38,100.00,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,45–49,Laki-laki,131349,568,131917,133520,0.43,98.80,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,50–54,Laki-laki,113724,718,114442,117879,0.63,97.08,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,55–59,Laki-laki,92221,978,93199,97195,1.05,95.89,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,60+,Laki-laki,129464,2031,131495,193344,1.54,68.01,Tabel 2.2,26
+2026-02,Provinsi Jambi,Umur,15–19,Perempuan,12116,3000,15116,147125,19.85,10.27,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,20–24,Perempuan,57231,11411,68642,146233,16.62,46.94,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,25–29,Perempuan,62331,2082,64413,149148,3.23,43.19,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,30–34,Perempuan,66171,457,66628,147841,0.69,45.07,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,35–39,Perempuan,68410,312,68722,146324,0.45,46.97,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,40–44,Perempuan,85011,0,85011,138450,0.00,61.40,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,45–49,Perempuan,78588,2339,80927,129407,2.89,62.54,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,50–54,Perempuan,61544,681,62225,113714,1.09,54.72,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,55–59,Perempuan,53965,0,53965,93212,0.00,57.89,Tabel 2.3,27
+2026-02,Provinsi Jambi,Umur,60+,Perempuan,72678,2128,74806,192850,2.84,38.79,Tabel 2.3,27
+2026-02,Provinsi Jambi,Pendidikan,SD ke bawah,Total,635408,15351,650759,998429,2.36,65.18,Tabel 2.4,28
+2026-02,Provinsi Jambi,Pendidikan,SMP,Total,307279,9489,316768,605072,3.00,52.35,Tabel 2.4,28
+2026-02,Provinsi Jambi,Pendidikan,SMA umum,Total,421161,24731,445892,679136,5.55,65.66,Tabel 2.4,28
+2026-02,Provinsi Jambi,Pendidikan,SMK,Total,132109,11599,143708,183871,8.07,78.16,Tabel 2.4,28
+2026-02,Provinsi Jambi,Pendidikan,Diploma I/II/III,Total,41445,1770,43215,62686,4.10,68.94,Tabel 2.4,28
+2026-02,Provinsi Jambi,Pendidikan,Universitas,Total,259377,11677,271054,319772,4.31,84.76,Tabel 2.4,28
+2026-02,Provinsi Jambi,Pendidikan,SD ke bawah,Laki-laki,416359,10638,426997,489254,2.49,87.28,Tabel 2.5,29
+2026-02,Provinsi Jambi,Pendidikan,SMP,Laki-laki,208621,7427,216048,301769,3.44,71.59,Tabel 2.5,29
+2026-02,Provinsi Jambi,Pendidikan,SMA umum,Laki-laki,298858,19471,318329,360058,6.12,88.41,Tabel 2.5,29
+2026-02,Provinsi Jambi,Pendidikan,SMK,Laki-laki,98483,6707,105190,112974,6.38,93.11,Tabel 2.5,29
+2026-02,Provinsi Jambi,Pendidikan,Diploma I/II/III,Laki-laki,19702,963,20665,24621,4.66,83.93,Tabel 2.5,29
+2026-02,Provinsi Jambi,Pendidikan,Universitas,Laki-laki,136711,7001,143712,155986,4.87,92.13,Tabel 2.5,29
+2026-02,Provinsi Jambi,Pendidikan,SD ke bawah,Perempuan,219049,4713,223762,509175,2.11,43.95,Tabel 2.6,30
+2026-02,Provinsi Jambi,Pendidikan,SMP,Perempuan,98658,2062,100720,303303,2.05,33.21,Tabel 2.6,30
+2026-02,Provinsi Jambi,Pendidikan,SMA umum,Perempuan,122303,5260,127563,319078,4.12,39.98,Tabel 2.6,30
+2026-02,Provinsi Jambi,Pendidikan,SMK,Perempuan,33626,4892,38518,70897,12.70,54.33,Tabel 2.6,30
+2026-02,Provinsi Jambi,Pendidikan,Diploma I/II/III,Perempuan,21743,807,22550,38065,3.58,59.24,Tabel 2.6,30
+2026-02,Provinsi Jambi,Pendidikan,Universitas,Perempuan,122666,4676,127342,163786,3.67,77.75,Tabel 2.6,30

@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jurnalisme Data untuk Media Sosial, pelatihan IDJN oleh Mawa Kresna.">
+  <meta name="theme-color" content="#fbefdf">
+  <title>Jurnalisme Data untuk Media Sosial · Mawa Kresna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="./cover.css">
+  <script src="./assets/sakernas-jambi.js" defer></script>
+  <script src="./slides.js" defer></script>
+</head>
+<body>
+  <main class="stage" aria-label="Jurnalisme data untuk media sosial">
+    <section class="title-slide" id="slide-1" data-slide aria-labelledby="judul">
+      <img class="idjn-logo" src="./assets/idjn-logo.png" width="300" height="80" alt="Indonesian Data Journalism Network (IDJN)">
+
+      <h1 id="judul" tabindex="-1">Jurnalisme data <span>untuk media sosial</span></h1>
+      <div class="presenter-block">
+        <p class="presenter">Mawa Kresna</p>
+        <p class="presenter-role">Editor Project Multatuli | Direktur Executive IDJN</p>
+        <p class="event-meta">Jambi, <time datetime="2026-11-24">24 November 2026</time></p>
+      </div>
+
+      <div class="data-motif" aria-hidden="true">
+        <div class="tile-field">
+          <span class="tile pink" style="--row:4;--from-x:122%;--from-y:-265%;--delay:540ms"></span>
+          <span class="tile pink" style="--row:5;--from-x:-38%;--from-y:-84%;--delay:370ms"></span>
+          <span class="tile pink" style="--row:6;--from-x:38%;--from-y:-242%;--delay:220ms"></span>
+          <span class="tile yellow" style="--row:1;--from-x:-92%;--from-y:185%;--delay:1010ms"></span>
+          <span class="tile yellow" style="--row:2;--from-x:112%;--from-y:46%;--delay:880ms"></span>
+          <span class="tile yellow" style="--row:3;--from-x:-31%;--from-y:-90%;--delay:750ms"></span>
+          <span class="tile yellow" style="--row:4;--from-x:61%;--from-y:48%;--delay:620ms"></span>
+          <span class="tile yellow" style="--row:5;--from-x:-68%;--from-y:-198%;--delay:480ms"></span>
+          <span class="tile yellow" style="--row:6;--from-x:85%;--from-y:-325%;--delay:340ms"></span>
+          <span class="tile cyan" style="--row:3;--from-x:43%;--from-y:-116%;--delay:900ms"></span>
+          <span class="tile cyan" style="--row:4;--from-x:-156%;--from-y:38%;--delay:760ms"></span>
+          <span class="tile cyan" style="--row:5;--from-x:11%;--from-y:-170%;--delay:610ms"></span>
+          <span class="tile cyan" style="--row:6;--from-x:-70%;--from-y:-36%;--delay:450ms"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="examples-slide" id="slide-2" data-slide aria-labelledby="pengantar" hidden>
+      <div class="examples-gallery">
+        <button class="gallery-button gallery-button--previous" type="button" aria-label="Geser ke contoh sebelumnya" aria-controls="karusel-instagram" hidden></button>
+        <ul class="carousel-examples" id="karusel-instagram" role="list" aria-label="Contoh unggahan data di Instagram">
+          <li>
+            <a class="carousel-example" href="https://www.instagram.com/p/DfyQ09EFTYh/?img_index=1" target="_blank" rel="noopener">
+              <img src="./assets/karusel-nytimes-biaya-hidup.webp" width="650" height="813" alt="Cuplikan pembuka yang menonjolkan angka US$2.520 untuk mengantar cerita soal biaya hidup.">
+              <span class="carousel-credit">The New York Times</span>
+              <span class="carousel-topic">Biaya hidup di AS</span>
+            </a>
+          </li>
+          <li>
+            <a class="carousel-example" href="https://www.instagram.com/p/Df5y-vDlzOu/" target="_blank" rel="noopener">
+              <img src="./assets/karusel-washington-post-pemilu.webp" width="650" height="813" alt="Grafik batang selisih suara nasional antara Demokrat dan Republik dalam pemilihan Dewan Perwakilan AS dari 1970 hingga 2026.">
+              <span class="carousel-credit">The Washington Post</span>
+              <span class="carousel-topic">Selisih suara pemilu DPR AS</span>
+            </a>
+          </li>
+          <li>
+            <a class="carousel-example" href="https://www.instagram.com/p/De1foorzr8K/" target="_blank" rel="noopener">
+              <img src="./assets/karusel-perupadata-karhutla.webp" width="650" height="813" alt="Peta luas lahan dan hutan yang terbakar di tiga provinsi di Kalimantan, disertai perbandingan skala.">
+              <span class="carousel-credit">Perupadata</span>
+              <span class="carousel-topic">Kebakaran hutan dan lahan</span>
+            </a>
+          </li>
+          <li>
+            <a class="carousel-example" href="https://www.instagram.com/p/DfyVyBfgXZo/?img_index=1" target="_blank" rel="noopener">
+              <img src="./assets/karusel-databoks-wakil-presiden.webp" width="810" height="1080" alt="Grafik batang horizontal yang membandingkan lama masa jabatan wakil presiden Indonesia dalam hitungan hari.">
+              <span class="carousel-credit">Databoks</span>
+              <span class="carousel-topic">Masa jabatan wakil presiden RI</span>
+            </a>
+          </li>
+          <li>
+            <a class="carousel-example" href="https://www.instagram.com/p/DHHs67Ay1ex/?img_index=1" target="_blank" rel="noopener">
+              <img src="./assets/karusel-mawa-kresna-pengangguran.webp" width="810" height="1012" alt="Diagram donat yang membagi pengangguran usia 15–29 tahun menurut kegiatan pencarian kerja, termasuk yang merasa tidak mungkin mendapat pekerjaan.">
+              <span class="carousel-credit">Mawa Kresna</span>
+              <span class="carousel-topic">Pengangguran Gen Z</span>
+            </a>
+          </li>
+          <li>
+            <a class="carousel-example" href="https://www.instagram.com/p/DDEW35My3WL/?img_index=1" target="_blank" rel="noopener">
+              <img src="./assets/karusel-mawa-kresna-kualitas-udara.webp" width="810" height="1012" alt="Dua grafik batang yang menampilkan seberapa sering kualitas udara Jakarta tercatat paling buruk dan paling baik menurut hari dalam sepekan.">
+              <span class="carousel-credit">Mawa Kresna</span>
+              <span class="carousel-topic">Kualitas udara Jakarta</span>
+            </a>
+          </li>
+        </ul>
+        <button class="gallery-button gallery-button--next" type="button" aria-label="Geser ke contoh berikutnya" aria-controls="karusel-instagram" hidden></button>
+      </div>
+
+      <h2 id="pengantar" tabindex="-1">Bagaimana proses membuat konten data di medsos seperti itu?</h2>
+    </section>
+
+    <section class="workflow-slide" id="slide-3" data-slide aria-labelledby="alur-jurnalisme-data" hidden>
+      <div class="workflow-intro">
+        <h2 id="alur-jurnalisme-data" tabindex="-1">Alur jurnalisme data</h2>
+        <p>Mulai dari pertanyaan liputan yang bisa dijawab dengan data.</p>
+      </div>
+
+      <ol class="workflow-steps" role="list" aria-label="Empat tahap jurnalisme data">
+        <li class="workflow-gathering">
+          <button class="workflow-step" id="tahap-gathering" type="button" aria-expanded="false" aria-controls="rincian-gathering">
+            <span class="workflow-number" aria-hidden="true">1</span>
+            <span class="workflow-toggle" aria-hidden="true"></span>
+            <span class="workflow-name">Gathering data</span>
+            <span class="workflow-summary">Cari dan catat sumber</span>
+          </button>
+        </li>
+        <li class="workflow-cleaning">
+          <button class="workflow-step" id="tahap-cleaning" type="button" aria-expanded="false" aria-controls="rincian-cleaning">
+            <span class="workflow-number" aria-hidden="true">2</span>
+            <span class="workflow-toggle" aria-hidden="true"></span>
+            <span class="workflow-name">Cleaning</span>
+            <span class="workflow-summary">Rapikan dan cek data</span>
+          </button>
+        </li>
+        <li class="workflow-analysis">
+          <button class="workflow-step" id="tahap-analisis" type="button" aria-expanded="false" aria-controls="rincian-analisis">
+            <span class="workflow-number" aria-hidden="true">3</span>
+            <span class="workflow-toggle" aria-hidden="true"></span>
+            <span class="workflow-name">Analisis</span>
+            <span class="workflow-summary">Cari pola dan tentukan angle</span>
+          </button>
+        </li>
+        <li class="workflow-visualization">
+          <button class="workflow-step" id="tahap-visualisasi" type="button" aria-expanded="false" aria-controls="rincian-visualisasi">
+            <span class="workflow-number" aria-hidden="true">4</span>
+            <span class="workflow-toggle" aria-hidden="true"></span>
+            <span class="workflow-name">Visualisasi</span>
+            <span class="workflow-summary">Pilih grafik yang tepat</span>
+          </button>
+        </li>
+      </ol>
+
+      <div class="workflow-panels">
+        <p class="workflow-hint">Klik tahap untuk membuka penjelasannya.</p>
+
+        <article class="workflow-panel workflow-gathering" id="rincian-gathering" aria-labelledby="tahap-gathering" data-slide-interactive hidden>
+          <h3>Cari data sesuai pertanyaan</h3>
+          <ul class="workflow-methods">
+            <li><strong>Tentukan kebutuhan.</strong> Pilih indikator, wilayah, dan periode.</li>
+            <li><strong>Cari sumber.</strong> Cek situs data resmi, portal open data, dan dokumen publik. Ajukan permintaan data bila perlu.</li>
+            <li><strong>Ambil data.</strong> Unduh CSV/Excel, tarik lewat API, atau gunakan <em>scraping</em> untuk mengambil data dari halaman web.</li>
+            <li><strong>Simpan data mentah.</strong> Catat sumber dan definisi indikator.</li>
+          </ul>
+        </article>
+
+        <article class="workflow-panel workflow-cleaning" id="rincian-cleaning" aria-labelledby="tahap-cleaning" data-slide-interactive hidden>
+          <h3>Siapkan tabel yang bisa dihitung</h3>
+          <ul class="workflow-methods">
+            <li><strong>Susun tabel kerja.</strong> Tentukan apa yang diwakili satu baris.</li>
+            <li><strong>Samakan format.</strong> Seragamkan label, angka, tanggal, dan satuan.</li>
+            <li><strong>Periksa isi tabel.</strong> Cek duplikat, sel kosong, dan angka janggal.</li>
+            <li><strong>Validasi hasil.</strong> Cocokkan angka dengan sumber dan catat koreksi.</li>
+          </ul>
+        </article>
+
+        <article class="workflow-panel workflow-analysis" id="rincian-analisis" aria-labelledby="tahap-analisis" data-slide-interactive hidden>
+          <h3>Ubah pola menjadi angle</h3>
+          <ul class="workflow-methods">
+            <li><strong>Cari pola.</strong> Saring, urutkan, atau rangkum data dengan tabel pivot.</li>
+            <li><strong>Bandingkan angka.</strong> Lihat jumlah, persentase, atau perubahan dengan pembanding yang setara.</li>
+            <li><strong>Uji temuan.</strong> Hitung ulang angka utama dan periksa pembaginya.</li>
+            <li><strong>Tentukan angle.</strong> Rumuskan satu temuan yang penting bagi audiens.</li>
+          </ul>
+        </article>
+
+        <article class="workflow-panel workflow-visualization" id="rincian-visualisasi" aria-labelledby="tahap-visualisasi" data-slide-interactive hidden>
+          <h3>Pilih grafik yang menjelaskan temuan</h3>
+          <ul class="workflow-methods">
+            <li><strong>Tentukan pesan utama.</strong> Pilih satu temuan yang ingin ditunjukkan.</li>
+            <li><strong>Sesuaikan jenis grafik.</strong> Pakai batang untuk perbandingan, garis untuk tren, dan peta untuk pola wilayah.</li>
+            <li><strong>Beri konteks.</strong> Cantumkan satuan, periode, dan sumber.</li>
+            <li><strong>Siapkan untuk medsos.</strong> Sorot satu temuan per kartu dan cek keterbacaan di ponsel.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="gathering-slide" id="slide-4" data-slide aria-labelledby="gathering-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="gathering-title" tabindex="-1">Gathering data</h2>
+        <p>Cari indikatornya, baca keterangannya, lalu simpan berkas asli.</p>
+      </div>
+
+      <div class="gathering-tabs" role="tablist" aria-label="Cara memperoleh data" data-tab-list>
+        <button type="button" role="tab" id="tab-bps" aria-controls="panel-bps" aria-selected="true">BPS</button>
+        <button type="button" role="tab" id="tab-open-data" aria-controls="panel-open-data" aria-selected="false" tabindex="-1">Portal open data</button>
+        <button type="button" role="tab" id="tab-cekdata" aria-controls="panel-cekdata" aria-selected="false" tabindex="-1">cekdata.ai</button>
+        <button type="button" role="tab" id="tab-scraping" aria-controls="panel-scraping" aria-selected="false" tabindex="-1">Kapan pakai scraping?</button>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-bps" aria-labelledby="tab-bps" tabindex="0">
+        <div class="gathering-instructions">
+          <h3>Cari tabel di BPS</h3>
+          <ol>
+            <li>Buka <strong>Tabel Statistik → Tenaga Kerja</strong> di BPS Jambi. Ketik <strong>indikator ketenagakerjaan</strong> di kolom pencarian.</li>
+            <li>Buka tabel indikator per kabupaten/kota. Pilih tahun, cek satuannya, lalu baca catatan di bawah tabel.</li>
+            <li>Klik <strong>Unduh</strong> dan pilih <strong>XLSX</strong> atau <strong>CSV</strong>. Untuk tabel yang terbit dalam laporan, buka menu <strong>Publikasi</strong> untuk mendapatkan PDF.</li>
+          </ol>
+          <p class="gathering-links">
+            <a href="https://jambi.bps.go.id/id/statistics-table?subject=520" target="_blank" rel="noopener">Cari tabel BPS</a>
+            <a href="https://jambi.bps.go.id/id/statistics-table/2/ODQ0IzI%3D/indikator-ketenagakerjaan-menurut-kabupaten-kota-tpt-dan-tpak-.html" target="_blank" rel="noopener">Buka tabel contoh</a>
+          </p>
+        </div>
+        <figure class="gathering-capture">
+          <a href="./assets/gathering-bps.webp" target="_blank" rel="noopener" aria-label="Perbesar tangkapan layar BPS">
+            <img src="./assets/gathering-bps.webp" width="1106" height="553" alt="Tabel indikator ketenagakerjaan di situs BPS dengan menu Unduh yang menampilkan pilihan XLSX dan CSV.">
+          </a>
+          <figcaption>BPS Jambi · Menu unduh tabel statistik</figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-open-data" aria-labelledby="tab-open-data" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Unduh dataset dari portal terbuka</h3>
+          <ol>
+            <li>Cari <strong>kunjungan wisata</strong> di Open Data Provinsi Jambi. Buka dataset kunjungan wisata dari Dinas Pariwisata.</li>
+            <li>Di tab <strong>Metadata</strong>, periksa produsen data, periode, dan tingkat penyajian. Cek juga apa yang diwakili satu baris pada tab <strong>Tabel</strong>.</li>
+            <li>Pilih <strong>Unduh Datasets → CSV</strong> atau <strong>Excel</strong>. Simpan juga tautan dataset dan metadatanya.</li>
+          </ol>
+          <p class="gathering-links">
+            <a href="https://opendata.jambiprov.go.id/" target="_blank" rel="noopener">Buka portal Jambi</a>
+            <a href="https://opendata.jambiprov.go.id/web-datasets/a33e7964-734c-43d7-a710-5b0dfa405a51/jumlah-kunjungan-wisata-mancanegara-dan-nusantara-provinsi-jambi" target="_blank" rel="noopener">Buka dataset wisata</a>
+          </p>
+        </div>
+        <figure class="gathering-capture">
+          <a href="./assets/gathering-open-data.webp" target="_blank" rel="noopener" aria-label="Perbesar tangkapan layar Open Data Provinsi Jambi">
+            <img src="./assets/gathering-open-data.webp" width="1462" height="728" alt="Dataset kunjungan wisata dari Dinas Pariwisata di Open Data Provinsi Jambi. Menu Unduh Datasets menampilkan pilihan Excel dan CSV.">
+          </a>
+          <figcaption>Open Data Provinsi Jambi · Unduhan dataset wisata</figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-cekdata" aria-labelledby="tab-cekdata" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Telusuri rujukan lewat cekdata.ai</h3>
+          <ol>
+            <li>Pilih pertanyaan demo atau klik tombol ganti pertanyaan, lalu tekan <strong>Verifikasi</strong>. Jika punya akses chat, tulis wilayah, indikator, dan periode dalam pertanyaanmu.</li>
+            <li>Baca <strong>Temuan Data</strong> dan periksa rujukan di bagian <strong>Sumber</strong>. Cocokkan definisi, wilayah, satuan, dan periode dengan sumber aslinya.</li>
+            <li>Gunakan tautan <strong>Unduh</strong> bila tersedia, atau ambil tabel dari rujukannya. Hitung ulang angka yang akan dipakai dalam konten.</li>
+          </ol>
+          <p class="gathering-links"><a href="https://cekdata.ai/" target="_blank" rel="noopener">Buka cekdata.ai</a></p>
+        </div>
+        <figure class="gathering-capture">
+          <a href="./assets/gathering-cekdata.webp" target="_blank" rel="noopener" aria-label="Perbesar tangkapan layar cekdata.ai">
+            <img src="./assets/gathering-cekdata.webp" width="1147" height="860" alt="Pertanyaan demo cekdata.ai, tombol Verifikasi, tabel temuan tentang jumlah penduduk miskin, dan tautan ke sumber BPS.">
+          </a>
+          <figcaption>cekdata.ai · Hasil verifikasi dari pertanyaan demo</figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-scraping" aria-labelledby="tab-scraping" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Pilih cara sesuai bentuk datanya</h3>
+          <dl class="gathering-decisions">
+            <div><dt>Ada CSV, Excel, atau API resmi</dt><dd>Gunakan unduhan atau API yang tersedia.</dd></div>
+            <div><dt>Satu tabel pendek di halaman publik</dt><dd>Salin ke spreadsheet, lalu cocokkan dengan sumber.</dd></div>
+            <div><dt>Banyak halaman publik dengan pola yang sama</dt><dd>Pakai scraping jika data hanya tampil di web dan perlu dikumpulkan berulang.</dd></div>
+          </dl>
+          <p class="gathering-links"><a href="https://id.wikipedia.org/wiki/Daftar_Wakil_Presiden_Indonesia#Daftar" target="_blank" rel="noopener">Buka tabel latihan di Wikipedia</a></p>
+        </div>
+        <aside class="gathering-prompt">
+          <div class="gathering-prompt-head">
+            <h4>Prompt scraping untuk AI pilihanmu</h4>
+            <button type="button" id="salin-prompt-scraping" data-copy-prompt="prompt-scraping" data-copy-status="status-salin-scraping">Salin prompt</button>
+          </div>
+          <div id="prompt-scraping" class="gathering-prompt-text">
+            <p>Buat skrip Python yang mengambil tabel pada bagian “Daftar” dari halaman ini.<br>https://id.wikipedia.org/wiki/Daftar_Wakil_Presiden_Indonesia</p>
+            <p>Ambil kolom “Wakil Presiden”, “Mulai Jabatan”, dan “Akhir Jabatan”. Tangani sel gabungan dan hapus penanda catatan kaki. Buat satu baris per masa jabatan, termasuk dua periode Jusuf Kalla. Lewati baris “Jabatan lowong”.</p>
+            <p>Ekspor wakil_presiden.csv dengan kolom nama, mulai_jabatan, akhir_jabatan, durasi_hari, dan sumber_url. Gunakan format YYYY-MM-DD. Hitung durasi dari tanggal akhir dikurangi tanggal mulai. Biarkan tanggal yang belum diketahui dan durasinya kosong.</p>
+            <p>Jelaskan cara memasang pustaka yang diperlukan dan menjalankan skrip. Sertakan Google Colab sebagai salah satu opsi. Jelaskan cara mencocokkan tiga baris hasil dengan tabel asli.</p>
+          </div>
+          <p class="gathering-copy-status" id="status-salin-scraping" role="status"></p>
+        </aside>
+      </div>
+
+      <div class="gathering-directory">
+        <h3>Sumber pemerintah lainnya</h3>
+        <ul aria-label="Tautan portal data pemerintah">
+          <li><a href="https://data.go.id/dataset" target="_blank" rel="noopener">Satu Data Indonesia</a><span>Katalog lintas instansi</span></li>
+          <li><a href="https://satudata.jakarta.go.id/open-data" target="_blank" rel="noopener">Open Data Jakarta</a><span>Data sektoral DKI</span></li>
+          <li><a href="https://data.kemendikdasmen.go.id/dataset" target="_blank" rel="noopener">Kemendikdasmen</a><span>Sekolah dan pendidikan</span></li>
+          <li><a href="https://layanandata.kemkes.go.id/katalog-data" target="_blank" rel="noopener">Kemenkes</a><span>Survei dan profil kesehatan</span></li>
+          <li><a href="https://data.bmkg.go.id/" target="_blank" rel="noopener">Data Terbuka BMKG</a><span>Cuaca dan gempa</span></li>
+          <li><a href="https://data.badanpangan.go.id/" target="_blank" rel="noopener">Badan Pangan Nasional</a><span>Harga, konsumsi, ketersediaan</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cleaning-slide" id="slide-5" data-slide aria-labelledby="cleaning-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="cleaning-title" tabindex="-1">Cleaning data</h2>
+        <p>Mana tabel yang bersih, mana yang kotor? Pilih jawaban dan sebutkan alasannya.</p>
+      </div>
+
+      <form class="cleaning-quiz" id="cleaning-quiz" data-slide-interactive novalidate>
+        <div class="cleaning-toolbar">
+          <p class="cleaning-context"><strong>Simulasi laporan perpustakaan.</strong> Satu baris untuk satu cabang per bulan. Peminjam luring adalah pengunjung yang meminjam buku di lokasi.</p>
+          <div class="cleaning-pager">
+            <button class="gallery-button gallery-button--previous" type="button" aria-label="Tabel sebelumnya" aria-controls="cleaning-tables" aria-disabled="true"></button>
+            <span id="cleaning-position" role="status">1 dari 3</span>
+            <button class="gallery-button gallery-button--next" type="button" aria-label="Tabel berikutnya" aria-controls="cleaning-tables" aria-disabled="false"></button>
+          </div>
+        </div>
+
+        <div class="cleaning-tables" id="cleaning-tables">
+          <article class="cleaning-card">
+            <h3 id="cleaning-table-a">Tabel A</h3>
+            <p class="cleaning-table-hint">Geser tabel ke samping untuk melihat semua kolom.</p>
+            <div class="cleaning-table-scroll" tabindex="0" role="region" aria-labelledby="cleaning-table-a">
+              <table aria-labelledby="cleaning-table-a">
+                <thead>
+                  <tr><th scope="col">Kode cabang</th><th scope="col">Cabang</th><th scope="col">Wilayah</th><th scope="col">Bulan</th><th scope="col">Hari buka</th><th scope="col">Kunjungan</th><th scope="col">Peminjam luring</th><th scope="col">Buku dipinjam</th><th scope="col">Anggota baru</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>PER-01</td><td>Melati</td><td>Kota Aruna</td><td>2025-01</td><td>24</td><td>1240</td><td>380</td><td>590</td><td>24</td></tr>
+                  <tr><td>per-01</td><td>melati</td><td>KOTA ARUNA</td><td>Feb 2025</td><td>22</td><td>1380</td><td>420</td><td>670</td><td>28</td></tr>
+                  <tr><td>PER-02</td><td>Kenanga</td><td>Kab. Nusa</td><td>01/2025</td><td>25</td><td>—</td><td>305</td><td>455</td><td>17</td></tr>
+                  <tr><td>PER-02</td><td>Kenanga</td><td>Kab Nusa</td><td>2025-02</td><td>23</td><td>1110 kali</td><td>340</td><td>500</td><td>23</td></tr>
+                  <tr><td>PER-03</td><td>Anggrek</td><td>Kota Sagara</td><td>2025-01</td><td>24</td><td>865</td><td>250</td><td>375</td><td></td></tr>
+                  <tr><td>PER-03</td><td>Anggrek</td><td>Kota Sagara</td><td>2025-02</td><td>22 hari</td><td>910</td><td>270</td><td>405</td><td>15</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <fieldset class="cleaning-choices" aria-labelledby="cleaning-table-a">
+              <label><input type="radio" name="tabel-a" value="bersih" required> Bersih</label>
+              <label><input type="radio" name="tabel-a" value="kotor"> Kotor</label>
+            </fieldset>
+            <p class="cleaning-answer" data-question="tabel-a" data-answer="kotor" hidden>
+              <strong>Kotor.</strong> Kode cabang, nama, wilayah, dan format bulan perlu diseragamkan. Pisahkan satuan dari angka. Cek tanda “—” dan sel yang kosong ke sumber sebelum mengisinya.
+            </p>
+          </article>
+
+          <article class="cleaning-card" hidden>
+            <h3 id="cleaning-table-b">Tabel B</h3>
+            <p class="cleaning-table-hint">Geser tabel ke samping untuk melihat semua kolom.</p>
+            <div class="cleaning-table-scroll" tabindex="0" role="region" aria-labelledby="cleaning-table-b">
+              <table aria-labelledby="cleaning-table-b">
+                <thead>
+                  <tr><th scope="col">Kode cabang</th><th scope="col">Cabang</th><th scope="col">Wilayah</th><th scope="col">Bulan</th><th scope="col">Hari buka</th><th scope="col">Kunjungan</th><th scope="col">Peminjam luring</th><th scope="col">Buku dipinjam</th><th scope="col">Anggota baru</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>PER-01</td><td>Melati</td><td>Kota Aruna</td><td>2025-03</td><td>25</td><td>1420</td><td>435</td><td>678</td><td>30</td></tr>
+                  <tr><td>PER-01</td><td>Melati</td><td>Kota Aruna</td><td>2025-04</td><td>24</td><td>1365</td><td>418</td><td>640</td><td>27</td></tr>
+                  <tr><td>PER-02</td><td>Kenanga</td><td>Kab. Nusa</td><td>2025-03</td><td>24</td><td>1165</td><td>367</td><td>548</td><td>20</td></tr>
+                  <tr><td>PER-02</td><td>Kenanga</td><td>Kab. Nusa</td><td>2025-04</td><td>23</td><td>1130</td><td>349</td><td>522</td><td>18</td></tr>
+                  <tr><td>PER-03</td><td>Anggrek</td><td>Kota Sagara</td><td>2025-03</td><td>25</td><td>935</td><td>282</td><td>421</td><td>16</td></tr>
+                  <tr><td>PER-03</td><td>Anggrek</td><td>Kota Sagara</td><td>2025-04</td><td>24</td><td>910</td><td>273</td><td>410</td><td>14</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <fieldset class="cleaning-choices" aria-labelledby="cleaning-table-b">
+              <label><input type="radio" name="tabel-b" value="bersih" required> Bersih</label>
+              <label><input type="radio" name="tabel-b" value="kotor"> Kotor</label>
+            </fieldset>
+            <p class="cleaning-answer" data-question="tabel-b" data-answer="bersih" hidden>
+              <strong>Bersih untuk analisis.</strong> Setiap pasangan kode cabang dan bulan muncul sekali. Formatnya konsisten, hari buka sesuai batas kalender, dan jumlah peminjam luring tidak melebihi kunjungan.
+            </p>
+          </article>
+
+          <article class="cleaning-card" hidden>
+            <h3 id="cleaning-table-c">Tabel C</h3>
+            <p class="cleaning-table-hint">Geser tabel ke samping untuk melihat semua kolom.</p>
+            <div class="cleaning-table-scroll" tabindex="0" role="region" aria-labelledby="cleaning-table-c">
+              <table aria-labelledby="cleaning-table-c">
+                <thead>
+                  <tr><th scope="col">Kode cabang</th><th scope="col">Cabang</th><th scope="col">Wilayah</th><th scope="col">Bulan</th><th scope="col">Hari buka</th><th scope="col">Kunjungan</th><th scope="col">Peminjam luring</th><th scope="col">Buku dipinjam</th><th scope="col">Anggota baru</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>PER-01</td><td>Melati</td><td>Kota Aruna</td><td>2025-05</td><td>25</td><td>1450</td><td>455</td><td>710</td><td>32</td></tr>
+                  <tr><td>PER-01</td><td>Melati</td><td>Kota Aruna</td><td>2025-06</td><td>24</td><td>1320</td><td>425</td><td>634</td><td>29</td></tr>
+                  <tr><td>PER-02</td><td>Kenanga</td><td>Kab. Nusa</td><td>2025-05</td><td>25</td><td>1190</td><td>370</td><td>559</td><td>18</td></tr>
+                  <tr><td>PER-02</td><td>Kenanga</td><td>Kab. Nusa</td><td>2025-05</td><td>25</td><td>1190</td><td>370</td><td>559</td><td>18</td></tr>
+                  <tr><td>PER-03</td><td>Anggrek</td><td>Kota Sagara</td><td>2025-06</td><td>31</td><td>920</td><td>950</td><td>1090</td><td>16</td></tr>
+                  <tr><td>—</td><td>Total</td><td>Semua wilayah</td><td>2025-05</td><td>50</td><td>2640</td><td>825</td><td>1269</td><td>50</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <fieldset class="cleaning-choices" aria-labelledby="cleaning-table-c">
+              <label><input type="radio" name="tabel-c" value="bersih" required> Bersih</label>
+              <label><input type="radio" name="tabel-c" value="kotor"> Kotor</label>
+            </fieldset>
+            <p class="cleaning-answer" data-question="tabel-c" data-answer="kotor" hidden>
+              <strong>Kotor.</strong> Kenanga pada Mei tercatat dua kali dan baris Total bercampur dengan data cabang. Anggrek mencatat 31 hari buka pada Juni yang hanya punya 30 hari, serta 950 peminjam dari 920 kunjungan.
+            </p>
+          </article>
+        </div>
+
+        <div class="cleaning-actions">
+          <button type="submit">Periksa jawaban</button>
+          <button type="reset" hidden>Ulangi</button>
+          <p id="cleaning-score" role="status"></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="gathering-slide" id="slide-6" data-slide aria-labelledby="cleaning-methods-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="cleaning-methods-title" tabindex="-1">Cara cleaning data</h2>
+        <p>Rapikan contoh laporan perpustakaan dan simpan jejak perubahannya.</p>
+      </div>
+
+      <div class="gathering-tabs" role="tablist" aria-label="Alat untuk cleaning data" data-tab-list>
+        <button type="button" role="tab" id="tab-spreadsheet" aria-controls="panel-spreadsheet" aria-selected="true">Spreadsheet</button>
+        <button type="button" role="tab" id="tab-openrefine" aria-controls="panel-openrefine" aria-selected="false" tabindex="-1">OpenRefine</button>
+        <button type="button" role="tab" id="tab-cleaning-ai" aria-controls="panel-cleaning-ai" aria-selected="false" tabindex="-1">AI</button>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-spreadsheet" aria-labelledby="tab-spreadsheet" tabindex="0">
+        <div class="gathering-instructions">
+          <h3>Rapikan lewat kolom bantu</h3>
+          <ol>
+            <li><strong>Pertahankan data mentah.</strong> Kerjakan salinannya dan tambah kolom bantu di samping data asli.</li>
+            <li><strong>Samakan format.</strong> Rapikan spasi kode dengan <code>TRIM</code> dan ubah huruf ke kapital dengan <code>UPPER</code>. Seragamkan bulan ke <code>YYYY-MM</code>.</li>
+            <li><strong>Tandai duplikat.</strong> Gunakan <code>COUNTIFS</code> untuk menghitung kemunculan pasangan kode cabang dan bulan. Filter hasil <code>TRUE</code> dan cek sumber sebelum menghapus baris.</li>
+          </ol>
+          <p class="gathering-links"><a href="https://support.google.com/docs/answer/3256550?hl=en" target="_blank" rel="noopener">Panduan COUNTIFS di Google Sheets</a></p>
+        </div>
+        <aside class="gathering-prompt method-example">
+          <h4>Dua rumus untuk tabel latihan</h4>
+          <dl class="method-formulas">
+            <div>
+              <dt>J2 · Kode cabang bersih dari A2</dt>
+              <dd><code>=UPPER(TRIM(A2))</code></dd>
+            </div>
+            <div>
+              <dt>K2 · Tandai kode dan bulan yang berulang</dt>
+              <dd><code>=COUNTIFS($J$2:$J$7,J2,$D$2:$D$7,D2)&gt;1</code></dd>
+            </div>
+          </dl>
+          <p>Isi rumus hingga baris 7. Rumus kedua memakai kode bersih di J dan bulan yang sudah seragam di D. Sesuaikan pemisah argumen dengan setelan spreadsheet.</p>
+        </aside>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-openrefine" aria-labelledby="tab-openrefine" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Seragamkan kategori di OpenRefine</h3>
+          <ol>
+            <li><strong>Impor berkas.</strong> Pilih <strong>Create Project</strong>, buka CSV atau Excel, lalu cek judul dan pemisah kolom di pratinjau.</li>
+            <li><strong>Temukan variasi.</strong> Pada kolom Wilayah, pilih <strong>Facet → Text facet</strong>, lalu klik <strong>Cluster</strong>. Cek usulan yang memang merujuk wilayah yang sama, lalu pilih ejaan bakunya.</li>
+            <li><strong>Simpan riwayat.</strong> Tinjau perubahan di <strong>Undo/Redo</strong>. Reset facet dan filter sebelum mengekspor CSV lengkap. Simpan arsip proyek jika riwayatnya perlu diperiksa lagi.</li>
+          </ol>
+          <p class="gathering-links"><a href="https://openrefine.org/docs/manual/cellediting/#cluster-and-edit" target="_blank" rel="noopener">Panduan clustering OpenRefine</a></p>
+        </div>
+        <aside class="gathering-prompt method-example">
+          <h4>Variasi di kolom Wilayah</h4>
+          <dl class="method-mapping">
+            <div><dt>Kota Aruna · KOTA ARUNA</dt><dd>→ <strong>Kota Aruna</strong></dd></div>
+            <div><dt>Kab. Nusa · Kab Nusa</dt><dd>→ <strong>Kab. Nusa</strong></dd></div>
+          </dl>
+          <p>Periksa kode cabang dan daftar wilayah sebelum menggabungkan kategori yang mirip.</p>
+        </aside>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-cleaning-ai" aria-labelledby="tab-cleaning-ai" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Minta rumus yang bisa dilacak</h3>
+          <ol>
+            <li><strong>Beri contoh input dan hasil.</strong> Sertakan kode yang belum rapi, kode yang sudah rapi, dan sel kosong.</li>
+            <li><strong>Pakai rumus di kolom bantu.</strong> Simpan nilai asli, rumus, dan alasan perubahan supaya orang lain bisa mengeceknya.</li>
+          </ol>
+          <aside class="cleaning-ai-warning">
+            <h4>Cek ulang sebelum dipakai</h4>
+            <p>Uji rumus pada beberapa baris. Cocokkan hasil dengan sumber dan pastikan input kosong menghasilkan tampilan kosong sebelum menerapkannya ke seluruh kolom.</p>
+          </aside>
+        </div>
+        <aside class="gathering-prompt method-example">
+          <div class="gathering-prompt-head">
+            <h4>Contoh prompt untuk AI</h4>
+            <button type="button" data-copy-prompt="prompt-cleaning" data-copy-status="status-salin-cleaning">Salin prompt</button>
+          </div>
+          <div id="prompt-cleaning" class="gathering-prompt-text">
+            <p>Bersihkan data ini dan periksa apakah masih ada kesalahan. Tandai nilai yang perlu dikonfirmasi. Paparkan rumus yang digunakan.</p>
+          </div>
+          <dl class="method-formulas">
+            <div><dt>Contoh rumus untuk merapikan kode cabang di J2</dt><dd><code>=IF(TRIM(A2)="","",UPPER(TRIM(A2)))</code></dd></div>
+          </dl>
+          <p class="gathering-copy-status" id="status-salin-cleaning" role="status"></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="gathering-slide analysis-slide" id="slide-7" data-slide aria-labelledby="analysis-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="analysis-title" tabindex="-1">Analisis data</h2>
+        <p>Pilih jenis analisis untuk melihat datanya dan draf pembuka karuselnya.</p>
+      </div>
+
+      <div class="gathering-tabs analysis-tabs" role="tablist" aria-label="Jenis analisis data" data-tab-list>
+        <button type="button" role="tab" id="tab-analysis-scale" aria-controls="panel-analysis-scale" aria-selected="true">
+          <span>Skala dan komposisi</span><small>Seberapa besar? Berapa bagiannya?</small>
+        </button>
+        <button type="button" role="tab" id="tab-analysis-compare" aria-controls="panel-analysis-compare" aria-selected="false" tabindex="-1">
+          <span>Perbandingan dan peringkat</span><small>Siapa yang paling tinggi?</small>
+        </button>
+        <button type="button" role="tab" id="tab-analysis-change" aria-controls="panel-analysis-change" aria-selected="false" tabindex="-1">
+          <span>Perubahan antarwaktu</span><small>Apa yang naik atau turun?</small>
+        </button>
+        <button type="button" role="tab" id="tab-analysis-spread" aria-controls="panel-analysis-spread" aria-selected="false" tabindex="-1">
+          <span>Sebaran</span><small>Seberapa lebar rentang angkanya?</small>
+        </button>
+        <button type="button" role="tab" id="tab-analysis-anomaly" aria-controls="panel-analysis-anomaly" aria-selected="false" tabindex="-1">
+          <span>Anomali</span><small>Angka mana yang janggal?</small>
+        </button>
+        <button type="button" role="tab" id="tab-analysis-relation" aria-controls="panel-analysis-relation" aria-selected="false" tabindex="-1">
+          <span>Hubungan</span><small>Apakah dua ukuran bergerak bersama?</small>
+        </button>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-analysis-scale" aria-labelledby="tab-analysis-scale" tabindex="0">
+        <div class="gathering-instructions">
+          <h3>Kunjungan pada Maret 2025</h3>
+          <table class="analysis-data" aria-label="Kunjungan per cabang pada Maret 2025">
+            <thead><tr><th scope="col">Cabang</th><th scope="col">Kunjungan</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Melati</th><td>1.420</td></tr>
+              <tr><th scope="row">Kenanga</th><td>1.165</td></tr>
+              <tr><th scope="row">Anggrek</th><td>935</td></tr>
+            </tbody>
+            <tfoot><tr><th scope="row">Total tiga cabang</th><td>3.520</td></tr></tfoot>
+          </table>
+          <p class="analysis-method-copy">Skalanya 3.520 kunjungan di tiga cabang. Porsi Melati dihitung dari <strong>1.420 ÷ 3.520 × 100 ≈ 40,3%.</strong></p>
+        </div>
+        <aside class="analysis-cover">
+          <p class="analysis-cover-label">Pembuka karusel · data simulasi</p>
+          <h3>Sekitar 4 dari 10 kunjungan tercatat di Perpustakaan Melati</h3>
+          <p class="analysis-cover-subtitle">Pada Maret 2025, Melati mencatat 1.420 dari total 3.520 kunjungan di tiga cabang.</p>
+        </aside>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-analysis-compare" aria-labelledby="tab-analysis-compare" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Rata-rata kunjungan per hari buka</h3>
+          <table class="analysis-data" aria-label="Perbandingan kunjungan per hari buka pada Maret 2025">
+            <thead><tr><th scope="col">Cabang</th><th scope="col">Hari buka</th><th scope="col">Kunjungan</th><th scope="col">Per hari buka</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Melati</th><td>25</td><td>1.420</td><td>56,8</td></tr>
+              <tr><th scope="row">Kenanga</th><td>24</td><td>1.165</td><td>48,5</td></tr>
+              <tr><th scope="row">Anggrek</th><td>25</td><td>935</td><td>37,4</td></tr>
+            </tbody>
+          </table>
+          <p class="analysis-method-copy">Bagi kunjungan dengan hari buka agar perbandingannya setara. <strong>Melati mencatat 1.420 ÷ 25 = 56,8 kunjungan per hari buka.</strong></p>
+        </div>
+        <aside class="analysis-cover">
+          <p class="analysis-cover-label">Pembuka karusel · data simulasi</p>
+          <h3>Melati jadi cabang tersibuk per hari buka</h3>
+          <p class="analysis-cover-subtitle">Pada Maret 2025, Melati rata-rata mencatat 56,8 kunjungan per hari buka, disusul Kenanga (48,5) dan Anggrek (37,4).</p>
+        </aside>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-analysis-change" aria-labelledby="tab-analysis-change" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Kunjungan dari Maret ke April 2025</h3>
+          <table class="analysis-data" aria-label="Jumlah kunjungan per cabang pada Maret dan April 2025">
+            <thead><tr><th scope="col">Cabang</th><th scope="col">Maret</th><th scope="col">April</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Melati</th><td>1.420</td><td>1.365</td></tr>
+              <tr><th scope="row">Kenanga</th><td>1.165</td><td>1.130</td></tr>
+              <tr><th scope="row">Anggrek</th><td>935</td><td>910</td></tr>
+            </tbody>
+            <tfoot><tr><th scope="row">Total</th><td>3.520</td><td>3.405</td></tr></tfoot>
+          </table>
+          <p class="analysis-method-copy">Selisihnya 3.405 − 3.520 = −115 kunjungan. <strong>−115 ÷ 3.520 × 100 ≈ −3,3%.</strong></p>
+        </div>
+        <aside class="analysis-cover">
+          <p class="analysis-cover-label">Pembuka karusel · data simulasi</p>
+          <h3>Kunjungan ke tiga cabang perpustakaan turun 3,3% pada April</h3>
+          <p class="analysis-cover-subtitle">Ketiga cabang sama-sama mencatat penurunan. Totalnya berkurang 115 kunjungan dari Maret ke April 2025.</p>
+        </aside>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-analysis-spread" aria-labelledby="tab-analysis-spread" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Sebaran kunjungan pada Maret 2025</h3>
+          <table class="analysis-data" aria-label="Kunjungan per cabang diurutkan dari yang terendah pada Maret 2025">
+            <thead><tr><th scope="col">Cabang</th><th scope="col">Kunjungan</th><th scope="col">Posisi</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Anggrek</th><td>935</td><td>Terendah</td></tr>
+              <tr><th scope="row">Kenanga</th><td>1.165</td><td>Median</td></tr>
+              <tr><th scope="row">Melati</th><td>1.420</td><td>Tertinggi</td></tr>
+            </tbody>
+          </table>
+          <p class="analysis-method-copy">Setelah diurutkan, nilai tengahnya 1.165. Rentangnya <strong>1.420 − 935 = 485 kunjungan.</strong></p>
+        </div>
+        <aside class="analysis-cover">
+          <p class="analysis-cover-label">Pembuka karusel · data simulasi</p>
+          <h3>Kunjungan antarcabang terpaut hingga 485 dalam sebulan</h3>
+          <p class="analysis-cover-subtitle">Pada Maret 2025, kunjungan di tiga cabang berkisar antara 935 dan 1.420. Angka tengahnya 1.165 kunjungan.</p>
+        </aside>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-analysis-anomaly" aria-labelledby="tab-analysis-anomaly" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Cek laporan cabang Anggrek</h3>
+          <table class="analysis-data" aria-label="Hari buka tercatat dan jumlah hari kalender pada Juni 2025">
+            <thead><tr><th scope="col">Pembanding</th><th scope="col">Juni 2025</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Hari buka di laporan</th><td>31 hari</td></tr>
+              <tr><th scope="row">Hari dalam kalender</th><td>30 hari</td></tr>
+            </tbody>
+          </table>
+          <p class="analysis-method-copy">Angka di laporan melampaui batas kalender. <strong>Cek tanggal dan catatan pembukaan ke pengelola.</strong></p>
+        </div>
+        <aside class="analysis-cover">
+          <p class="analysis-cover-label">Pembuka karusel · data simulasi</p>
+          <h3>Kok laporan Perpustakaan Anggrek mencatat 31 hari buka pada Juni?</h3>
+          <p class="analysis-cover-subtitle">Juni 2025 punya 30 hari. Selisih satu hari itu jadi petunjuk untuk menelusuri cara cabang mencatat hari buka.</p>
+        </aside>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-analysis-relation" aria-labelledby="tab-analysis-relation" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Pasangkan hari buka dan kunjungan</h3>
+          <table class="analysis-data" aria-label="Hari buka dan kunjungan pada Maret dan April 2025">
+            <caption>Maret → April 2025</caption>
+            <thead><tr><th scope="col">Cabang</th><th scope="col">Hari buka</th><th scope="col">Kunjungan</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Melati</th><td>25 → 24</td><td>1.420 → 1.365</td></tr>
+              <tr><th scope="row">Kenanga</th><td>24 → 23</td><td>1.165 → 1.130</td></tr>
+              <tr><th scope="row">Anggrek</th><td>25 → 24</td><td>935 → 910</td></tr>
+            </tbody>
+          </table>
+          <p class="analysis-method-copy">Kedua ukuran turun di semua cabang. <strong>Cek periode lain dan faktor seperti libur atau acara sebelum menjelaskan penyebabnya.</strong></p>
+        </div>
+        <aside class="analysis-cover">
+          <p class="analysis-cover-label">Pembuka karusel · data simulasi</p>
+          <h3>Saat hari buka berkurang, kunjungan juga turun</h3>
+          <p class="analysis-cover-subtitle">Dari Maret ke April 2025, ketiga cabang buka satu hari lebih sedikit dan sama-sama mencatat lebih sedikit kunjungan.</p>
+        </aside>
+      </div>
+    </section>
+    <section class="gathering-slide story-slide" id="slide-8" data-slide aria-labelledby="story-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="story-title" tabindex="-1">Mencari cerita dari data</h2>
+        <p>Pilih temuan paling menarik dari dua tabel Jambi ini. Tulis judul dan subjudul untuk karusel.</p>
+      </div>
+
+      <div class="gathering-tabs" role="tablist" aria-label="Latihan mencari cerita dari data" data-tab-list>
+        <button type="button" role="tab" id="tab-story-tables" aria-controls="panel-story-tables" aria-selected="true">Tabel latihan</button>
+        <button type="button" role="tab" id="tab-story-tips" aria-controls="panel-story-tips" aria-selected="false" tabindex="-1">Tips mencari angle</button>
+      </div>
+
+      <div class="story-tables" role="tabpanel" id="panel-story-tables" aria-labelledby="tab-story-tables" tabindex="0">
+        <figure class="lesson-chart visualization-table">
+          <table class="analysis-data" id="story-unemployment">
+            <caption><strong>Pengangguran menurut kelompok umur</strong><span>Provinsi Jambi · Februari 2026</span></caption>
+            <thead>
+              <tr>
+                <th scope="col">Umur <span>(tahun)</span></th>
+                <th scope="col">Penganggur <span>(orang)</span></th>
+                <th scope="col">Angkatan kerja <span>(orang)</span></th>
+                <th scope="col"><abbr title="Tingkat Pengangguran Terbuka">TPT</abbr> <span>(%)</span></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+          </table>
+          <p class="story-table-note">TPT adalah persentase penganggur dalam angkatan kerja pada kelompok umur yang sama.</p>
+          <figcaption>Sumber <a href="https://jambi.bps.go.id/id/publication/2026/10/15/49f6090606b9af69a6254d6a/keadaan-angkatan-kerja-provinsi-jambi-februari-2026.html" target="_blank" rel="noopener">BPS Provinsi Jambi · Sakernas, tabel 2.1, hlm. 25</a></figcaption>
+        </figure>
+
+        <figure class="lesson-chart visualization-table">
+          <table class="analysis-data" id="story-employment">
+            <caption><strong>Bekerja dan menganggur menurut pendidikan</strong><span>Provinsi Jambi · Februari 2026</span></caption>
+            <thead>
+              <tr>
+                <th scope="col">Pendidikan</th>
+                <th scope="col">Bekerja <span>(orang)</span></th>
+                <th scope="col">Penganggur <span>(orang)</span></th>
+                <th scope="col"><abbr title="Tingkat Pengangguran Terbuka">TPT</abbr> <span>(%)</span></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+          </table>
+          <p class="story-table-note">Pendidikan merujuk pada jenjang tertinggi yang ditamatkan. Pembagi TPT adalah angkatan kerja tiap jenjang (bekerja + penganggur).</p>
+          <figcaption>Sumber <a href="https://jambi.bps.go.id/id/publication/2026/10/15/49f6090606b9af69a6254d6a/keadaan-angkatan-kerja-provinsi-jambi-februari-2026.html" target="_blank" rel="noopener">BPS Provinsi Jambi · Sakernas, tabel 2.4, hlm. 28</a></figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel story-tips" role="tabpanel" id="panel-story-tips" aria-labelledby="tab-story-tips" tabindex="0" hidden>
+        <dl>
+          <div>
+            <dt>Skala dan komposisi</dt>
+            <dd>Bagi jumlah penganggur atau pekerja di satu kelompok dengan total masing-masing. Seberapa besar porsinya?</dd>
+          </div>
+          <div>
+            <dt>Perbandingan dan peringkat</dt>
+            <dd>Urutkan kelompok umur atau pendidikan menurut jumlah penganggur, lalu menurut TPT. Apakah urutannya sama?</dd>
+          </div>
+          <div>
+            <dt>Sebaran</dt>
+            <dd>Bandingkan nilai tertinggi, terendah, dan nilai di antaranya. Di mana selisih yang paling menonjol?</dd>
+          </div>
+          <div>
+            <dt>Anomali</dt>
+            <dd>Kalau ada angka yang mengejutkan, cek tabel sumber, definisi, dan pembaginya sebelum menjadikannya angle.</dd>
+          </div>
+          <div>
+            <dt>Perubahan antarwaktu</dt>
+            <dd>Kedua tabel menggambarkan Februari 2026. Cari data periode sebanding jika ingin menguji kenaikan atau penurunan.</dd>
+          </div>
+          <div>
+            <dt>Hubungan</dt>
+            <dd>Bandingkan TPT antarjenjang pendidikan. Untuk melihatnya sekaligus menurut usia, cari tabel silang usia, pendidikan, dan status kerja.</dd>
+          </div>
+        </dl>
+        <p><strong>Apa artinya bagi warga Jambi?</strong> Pilih temuan yang relevan dan punya pembanding yang jelas. Cantumkan angka, pembanding, dan periode di subjudul.</p>
+      </div>
+    </section>
+    <section class="gathering-slide visualization-slide" id="slide-9" data-slide aria-labelledby="visualization-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="visualization-title" tabindex="-1">Visualisasi data</h2>
+        <p>Pilih grafik berdasarkan angle. Contohnya memakai data perpustakaan dari slide Analisis Data.</p>
+      </div>
+
+      <div class="gathering-tabs analysis-tabs" role="tablist" aria-label="Pilihan grafik berdasarkan angle" data-tab-list>
+        <button type="button" role="tab" id="tab-chart-donut" aria-controls="panel-chart-donut" aria-selected="true"><span>Donat</span><small>Porsi dari total</small></button>
+        <button type="button" role="tab" id="tab-chart-bars" aria-controls="panel-chart-bars" aria-selected="false" tabindex="-1"><span>Batang</span><small>Perbandingan dan peringkat</small></button>
+        <button type="button" role="tab" id="tab-chart-line" aria-controls="panel-chart-line" aria-selected="false" tabindex="-1"><span>Garis</span><small>Perubahan antarwaktu</small></button>
+        <button type="button" role="tab" id="tab-chart-dots" aria-controls="panel-chart-dots" aria-selected="false" tabindex="-1"><span>Plot titik</span><small>Sebaran nilai</small></button>
+        <button type="button" role="tab" id="tab-chart-scatter" aria-controls="panel-chart-scatter" aria-selected="false" tabindex="-1"><span>Diagram pencar</span><small>Hubungan dua ukuran</small></button>
+        <button type="button" role="tab" id="tab-chart-table" aria-controls="panel-chart-table" aria-selected="false" tabindex="-1"><span>Tabel sorot</span><small>Angka janggal yang perlu dicek</small></button>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-chart-donut" aria-labelledby="tab-chart-donut" tabindex="0">
+        <div class="gathering-instructions">
+          <h3>Sekitar 4 dari 10 kunjungan tercatat di Melati</h3>
+          <p class="analysis-method-copy">Pakai donat saat angle menunjukkan <strong>bagian dari satu total</strong>. Tiga cabang membentuk seluruh kunjungan dalam data ini. Tulis total dan beri label persentase tiap cabang.</p>
+          <p class="analysis-method-copy">Jika anglenya hanya jumlah seluruh kunjungan, cukup tampilkan angka <strong>3.520</strong> pada kartu.</p>
+        </div>
+        <figure class="lesson-chart">
+          <h4>Porsi kunjungan per cabang</h4>
+          <div class="lesson-donut-layout">
+            <div class="lesson-donut" aria-hidden="true"><span><strong>3.520</strong>kunjungan</span></div>
+            <ul class="lesson-chart-key" aria-label="Porsi dan jumlah kunjungan dari total 3.520">
+              <li class="legend-melati"><b>Melati</b><span>40,3% · 1.420</span></li>
+              <li class="legend-kenanga"><b>Kenanga</b><span>33,1% · 1.165</span></li>
+              <li class="legend-anggrek"><b>Anggrek</b><span>26,6% · 935</span></li>
+            </ul>
+          </div>
+          <figcaption>Simulasi perpustakaan · Maret 2025 · Tabel B</figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-chart-bars" aria-labelledby="tab-chart-bars" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Melati jadi cabang tersibuk per hari buka</h3>
+          <p class="analysis-method-copy">Pakai batang untuk <strong>membandingkan cabang</strong> dengan ukuran yang sama. Urutkan untuk memperjelas peringkat. Mulai batang dari nol supaya panjangnya sebanding dengan nilai.</p>
+        </div>
+        <figure class="lesson-chart">
+          <h4>Rata-rata kunjungan per hari buka</h4>
+          <div class="lesson-bars">
+            <div><b>Melati</b><span class="lesson-bar-track" style="--bar-size:94.67%"><span></span></span><span>56,8</span></div>
+            <div><b>Kenanga</b><span class="lesson-bar-track" style="--bar-size:80.83%"><span></span></span><span>48,5</span></div>
+            <div><b>Anggrek</b><span class="lesson-bar-track" style="--bar-size:62.33%"><span></span></span><span>37,4</span></div>
+            <div class="lesson-bar-scale" aria-hidden="true"><span>0</span><span>20</span><span>40</span><span>60</span></div>
+          </div>
+          <figcaption>Simulasi perpustakaan · Maret 2025 · Tabel B</figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-chart-line" aria-labelledby="tab-chart-line" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Kunjungan turun 3,3% pada April</h3>
+          <p class="analysis-method-copy">Pakai garis saat angle mengikuti <strong>urutan waktu</strong>. Labeli sumbu dan nilai agar besar perubahan mudah dibaca. Dua bulan menunjukkan perubahan ini. Tambah periode untuk melihat tren.</p>
+        </div>
+        <figure class="lesson-chart">
+          <h4>Total kunjungan di tiga cabang</h4>
+          <div class="lesson-xy lesson-time" role="img" aria-label="Jumlah kunjungan turun dari 3.520 pada Maret menjadi 3.405 pada April 2025. Sumbu vertikal dari 3.300 hingga 3.600.">
+            <div class="lesson-y-scale" aria-hidden="true"><span>3.600</span><span>3.500</span><span>3.400</span><span>3.300</span></div>
+            <div class="lesson-plot" aria-hidden="true">
+              <div class="lesson-gridlines"><span></span><span></span><span></span><span></span></div>
+              <span class="lesson-time-line"></span>
+              <span class="lesson-point" style="--x:16%;--y:26.667%"><b>3.520</b></span>
+              <span class="lesson-point" style="--x:84%;--y:65%"><b>3.405</b></span>
+            </div>
+            <div class="lesson-x-scale" aria-hidden="true"><span style="--x:16%">Maret</span><span style="--x:84%">April</span></div>
+          </div>
+          <figcaption>Simulasi perpustakaan · Maret–April 2025 · Tabel B</figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-chart-dots" aria-labelledby="tab-chart-dots" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Kunjungan antarcabang terpaut 485</h3>
+          <p class="analysis-method-copy">Pakai plot titik saat ingin melihat <strong>letak tiap nilai dalam satu sebaran</strong>. Tiga titik cukup untuk memperlihatkan nilai terendah, median, dan tertinggi di satu skala.</p>
+        </div>
+        <figure class="lesson-chart">
+          <h4>Sebaran jumlah kunjungan</h4>
+          <div class="lesson-dotplot" role="img" aria-label="Anggrek 935 kunjungan, Kenanga 1.165 sebagai median, dan Melati 1.420. Rentang ketiga nilai 485 kunjungan.">
+            <div class="lesson-dot-axis" aria-hidden="true">
+              <span class="lesson-point legend-anggrek" style="--x:16.875%;--y:0%"><b>935<small>Anggrek</small></b></span>
+              <span class="lesson-point legend-kenanga" style="--x:45.625%;--y:0%"><b>1.165<small>Kenanga</small></b></span>
+              <span class="lesson-point legend-melati" style="--x:77.5%;--y:0%"><b>1.420<small>Melati</small></b></span>
+            </div>
+            <div class="lesson-dot-scale" aria-hidden="true"><span>800</span><span>1.000</span><span>1.200</span><span>1.400</span><span>1.600</span></div>
+          </div>
+          <figcaption>Simulasi perpustakaan · Maret 2025 · Tabel B</figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-chart-scatter" aria-labelledby="tab-chart-scatter" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Saat hari buka berkurang, kunjungan juga turun</h3>
+          <p class="analysis-method-copy">Pakai diagram pencar untuk memeriksa <strong>hubungan dua ukuran numerik</strong>. Setiap titik mewakili satu cabang dalam satu bulan. Bandingkan titik untuk cabang yang sama dan cek faktor lain sebelum menyimpulkan penyebab.</p>
+        </div>
+        <figure class="lesson-chart">
+          <h4>Kunjungan menurut jumlah hari buka</h4>
+          <div class="lesson-xy" role="img" aria-label="Melati 25 hari dan 1.420 kunjungan, lalu 24 hari dan 1.365. Kenanga 24 hari dan 1.165 kunjungan, lalu 23 hari dan 1.130. Anggrek 25 hari dan 935 kunjungan, lalu 24 hari dan 910.">
+            <div class="lesson-y-scale" aria-hidden="true"><span>1.600</span><span>1.400</span><span>1.200</span><span>1.000</span><span>800</span></div>
+            <div class="lesson-plot" aria-hidden="true">
+              <div class="lesson-gridlines"><span></span><span></span><span></span><span></span><span></span></div>
+              <span class="lesson-point legend-melati" style="--x:86%;--y:22.5%"></span>
+              <span class="lesson-point legend-melati" style="--x:50%;--y:29.375%"></span>
+              <span class="lesson-point legend-kenanga" style="--x:50%;--y:54.375%"></span>
+              <span class="lesson-point legend-kenanga" style="--x:14%;--y:58.75%"></span>
+              <span class="lesson-point legend-anggrek" style="--x:86%;--y:83.125%"></span>
+              <span class="lesson-point legend-anggrek" style="--x:50%;--y:86.25%"></span>
+            </div>
+            <div class="lesson-x-scale" aria-hidden="true"><span style="--x:14%">23</span><span style="--x:50%">24</span><span style="--x:86%">25 hari buka</span></div>
+          </div>
+          <ul class="lesson-chart-key lesson-scatter-key" aria-label="Warna penanda cabang">
+            <li class="legend-melati">Melati</li><li class="legend-kenanga">Kenanga</li><li class="legend-anggrek">Anggrek</li>
+          </ul>
+          <figcaption>Simulasi perpustakaan · Maret–April 2025 · Tabel B</figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-chart-table" aria-labelledby="tab-chart-table" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Kok laporan Anggrek mencatat 31 hari buka pada Juni?</h3>
+          <p class="analysis-method-copy">Pakai tabel sorot saat pembaca perlu melihat <strong>angka persis dan pembandingnya</strong>. Tandai angka 31 sebagai catatan yang perlu dikonfirmasi ke pengelola.</p>
+        </div>
+        <figure class="lesson-chart">
+          <h4>Hari buka Perpustakaan Anggrek</h4>
+          <table class="analysis-data lesson-highlight" aria-label="Hari buka menurut laporan dan hari dalam kalender">
+            <thead><tr><th scope="col">Pembanding</th><th scope="col">Juni 2025</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Hari buka di laporan</th><td><mark>31 hari</mark><small>Perlu konfirmasi</small></td></tr>
+              <tr><th scope="row">Hari dalam kalender</th><td>30 hari</td></tr>
+            </tbody>
+          </table>
+          <figcaption>Simulasi perpustakaan · Juni 2025 · Tabel C</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="gathering-slide visualization-tools-slide" id="slide-10" data-slide aria-labelledby="visualization-tools-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="visualization-tools-title" tabindex="-1">Cara bikin visualisasi</h2>
+        <p>Contoh latihan memakai Tingkat Pengangguran Terbuka (TPT) di Jambi.</p>
+      </div>
+
+      <div class="gathering-tabs" role="tablist" aria-label="Alat membuat visualisasi" data-tab-list>
+        <button type="button" role="tab" id="tab-tool-canva" aria-controls="panel-tool-canva" aria-selected="false" tabindex="-1">Canva</button>
+        <button type="button" role="tab" id="tab-tool-flourish" aria-controls="panel-tool-flourish" aria-selected="false" tabindex="-1">Flourish</button>
+        <button type="button" role="tab" id="tab-tool-idjn" aria-controls="panel-tool-idjn" aria-selected="true">DataViz IDJN</button>
+        <button type="button" role="tab" id="tab-tool-ai" aria-controls="panel-tool-ai" aria-selected="false" tabindex="-1">AI</button>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-tool-canva" aria-labelledby="tab-tool-canva" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Canva</h3>
+          <p class="analysis-method-copy">Pakai pembuat grafik Canva untuk menaruh bagan langsung ke desain karusel. Kamu bisa menata grafik bersama judul, subjudul, dan identitas media.</p>
+        </div>
+        <a class="visualization-site-link" href="https://www.canva.com/id_id/grafik/" target="_blank" rel="noopener">
+          <strong>Buka Pembuat Grafik Canva</strong>
+          <span>canva.com/id_id/grafik/</span>
+        </a>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-tool-flourish" aria-labelledby="tab-tool-flourish" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Flourish</h3>
+          <p class="analysis-method-copy">Pilih templat grafik dan masukkan data. Flourish cocok untuk grafik interaktif yang bisa disematkan di artikel.</p>
+        </div>
+        <a class="visualization-site-link" href="https://flourish.studio/" target="_blank" rel="noopener">
+          <strong>Buka Flourish</strong>
+          <span>flourish.studio</span>
+        </a>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-tool-idjn" aria-labelledby="tab-tool-idjn" tabindex="0">
+        <div class="gathering-instructions">
+          <h3>Data untuk praktik di DataViz IDJN</h3>
+          <p class="analysis-method-copy">TPT adalah persentase penganggur dalam angkatan kerja. Tabel mencakup 11 kabupaten/kota, diurutkan dari TPT tertinggi.</p>
+          <div class="gathering-prompt-head visualization-copy">
+            <button type="button" data-copy-table="tpt-jambi-table" data-copy-status="status-salin-tpt-jambi" data-copy-fallback="salinan-tpt-jambi" data-copy-message="Data tersalin.">Salin data</button>
+          </div>
+          <p class="gathering-copy-status" id="status-salin-tpt-jambi" role="status"></p>
+          <textarea class="visualization-copy-fallback" id="salinan-tpt-jambi" aria-label="Salinan data untuk DataViz IDJN" rows="4" readonly hidden></textarea>
+          <p class="gathering-links">
+            <a href="https://dataviz.idjnetwork.org/" target="_blank" rel="noopener">Buka DataViz IDJN</a>
+          </p>
+        </div>
+        <figure class="visualization-table lesson-chart" id="tpt-jambi-table">
+          <table class="analysis-data">
+            <caption><strong>Tingkat Pengangguran Terbuka menurut kabupaten/kota di Provinsi Jambi</strong><span>Agustus 2025</span></caption>
+            <thead><tr><th scope="col">Kabupaten/kota</th><th scope="col">TPT (%)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Kota Jambi</th><td>7,08</td></tr>
+              <tr><th scope="row">Muaro Jambi</th><td>5,02</td></tr>
+              <tr><th scope="row">Sarolangun</th><td>4,68</td></tr>
+              <tr><th scope="row">Bungo</th><td>4,33</td></tr>
+              <tr><th scope="row">Batang Hari</th><td>4,21</td></tr>
+              <tr><th scope="row">Kota Sungai Penuh</th><td>4,09</td></tr>
+              <tr><th scope="row">Merangin</th><td>3,90</td></tr>
+              <tr><th scope="row">Tanjung Jabung Barat</th><td>3,12</td></tr>
+              <tr><th scope="row">Kerinci</th><td>2,39</td></tr>
+              <tr><th scope="row">Tebo</th><td>2,21</td></tr>
+              <tr><th scope="row">Tanjung Jabung Timur</th><td>2,00</td></tr>
+            </tbody>
+          </table>
+          <figcaption>Sumber <a href="https://jambi.bps.go.id/id/publication/2026/04/23/348cada4713b2aedd1075e4e/keadaan-angkatan-kerja-provinsi-jambi-agustus-2025.html" target="_blank" rel="noopener">BPS Provinsi Jambi · Sakernas Agustus 2025, tabel 7</a></figcaption>
+        </figure>
+      </div>
+
+      <div class="gathering-panel" role="tabpanel" id="panel-tool-ai" aria-labelledby="tab-tool-ai" tabindex="0" hidden>
+        <div class="gathering-instructions">
+          <h3>Grafik batang untuk karusel Instagram</h3>
+          <div class="gathering-prompt visualization-copy">
+            <div class="gathering-prompt-head">
+              <h4>Contoh prompt untuk AI</h4>
+              <button type="button" data-copy-prompt="prompt-visualisasi" data-copy-table="tpt-jambi-table" data-copy-status="status-salin-visualisasi" data-copy-fallback="salinan-prompt-visualisasi">Salin prompt dan data</button>
+            </div>
+            <div id="prompt-visualisasi" class="gathering-prompt-text">
+              <p>Buat grafik batang horizontal untuk satu kartu karusel Instagram <strong>1080 × 1350 px (4:5)</strong>. Pakai judul “Tingkat Pengangguran Kota Jambi Tertinggi di Provinsi Jambi” dan subjudul “Tingkat Pengangguran Terbuka per kabupaten/kota, Agustus 2025”.</p>
+              <p>Urutkan wilayah dari tertinggi. Mulai sumbu dari 0%, sorot Kota Jambi, dan tulis persentase di setiap batang. Cantumkan “Sumber BPS Provinsi Jambi, Sakernas Agustus 2025, tabel 7”. Cocokkan angka dengan data sebelum mengekspor PNG.</p>
+            </div>
+            <p class="gathering-copy-status" id="status-salin-visualisasi" role="status"></p>
+            <textarea class="visualization-copy-fallback" id="salinan-prompt-visualisasi" aria-label="Salinan prompt visualisasi dan data" rows="4" readonly hidden></textarea>
+          </div>
+        </div>
+        <div id="tpt-jambi-table-ai"></div>
+      </div>
+    </section>
+    <section class="gathering-slide case-study-slide" id="slide-11" data-slide aria-labelledby="case-study-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="case-study-title" tabindex="-1">Ketika polisi jadi pelaku</h2>
+        <p>Bedah liputan Project Multatuli · Mawa Kresna · 20 November 2026</p>
+      </div>
+
+      <div class="gathering-tabs" role="tablist" aria-label="Bedah liputan Project Multatuli" data-tab-list>
+        <button type="button" role="tab" id="tab-case-report" aria-controls="panel-case-report" aria-selected="true">Liputan</button>
+        <button type="button" role="tab" id="tab-case-process" aria-controls="panel-case-process" aria-selected="false" tabindex="-1">Proses liputan</button>
+        <button type="button" role="tab" id="tab-case-angles" aria-controls="panel-case-angles" aria-selected="false" tabindex="-1">Angle data</button>
+      </div>
+
+      <div class="gathering-panel case-report" role="tabpanel" id="panel-case-report" aria-labelledby="tab-case-report" tabindex="0">
+        <figure class="case-illustration">
+          <img src="./assets/project-multatuli-polisi-pelaku.jpg" width="768" height="576" loading="lazy" alt="Ilustrasi petugas di ruang penyadapan dengan layar dan jejak digital">
+          <figcaption>Ilustrasi Abdul Malik Amirullah / Project Multatuli</figcaption>
+        </figure>
+        <div class="gathering-instructions">
+          <h3>Dari penyadapan presiden, pengedar narkotika sampai pembunuhan</h3>
+          <dl class="case-metrics">
+            <div><dt>Berita dari 48 media</dt><dd>33.810</dd></div>
+            <div><dt>Kasus pelanggaran etik hingga pidana</dt><dd>1.633</dd></div>
+            <div><dt>Anggota polisi terlibat, sedikitnya</dt><dd>3.145</dd></div>
+          </dl>
+          <p class="analysis-method-copy">Cakupan penelusuran berita 8 Agustus 2021–4 November 2026.</p>
+        </div>
+      </div>
+
+      <div class="gathering-panel case-process" role="tabpanel" id="panel-case-process" aria-labelledby="tab-case-process" tabindex="0" hidden>
+        <ol class="case-steps">
+          <li><h3>Gathering data</h3><p>Mesin scraping berbasis News Watch menelusuri situs media memakai kombinasi kata “polisi” dan kata kunci pelanggaran.</p></li>
+          <li><h3>Cleaning dan verifikasi</h3><p>AI membantu menyaring berita, mengekstrak variabel, dan menggabungkan berita tentang kasus yang sama. Jurnalis memeriksa hitungan, identitas, dan proses hukum.</p></li>
+          <li><h3>Analisis</h3><p>Hitung kasus dan anggota yang terlibat per kategori. Bandingkan hasil perkara dari kasus yang vonisnya tercatat.</p></li>
+          <li><h3>Tulisan dan visualisasi</h3><p>Tulisan dibuka dengan perkara penyadapan. Angka menunjukkan skala temuan, lalu contoh kasus dan grafik memperlihatkan polanya.</p></li>
+        </ol>
+      </div>
+
+      <div class="gathering-panel case-angles" role="tabpanel" id="panel-case-angles" aria-labelledby="tab-case-angles" tabindex="0" hidden>
+        <div class="case-angle-grid">
+          <article>
+            <h3>Ratusan polisi terlibat kasus narkotika</h3>
+            <p><strong>252 kasus</strong> melibatkan sedikitnya <strong>486 anggota polisi</strong>. Tulisan memakai temuan ini untuk menelusuri penyalahgunaan kewenangan dalam perkara narkotika.</p>
+          </article>
+          <article>
+            <h3>Pemerasan menonjol dalam kasus bermotif uang</h3>
+            <p><strong>107 dari 257 kasus</strong> dalam kelompok suap, pungli, dan pelanggaran bermotif uang lainnya adalah pemerasan.</p>
+          </article>
+          <article>
+            <h3>Vonis berbeda antarjenis perkara</h3>
+            <p>Dari kasus dengan vonis tercatat, <strong>18 dari 20 kasus pembunuhan</strong> berakhir dengan penjara 10 tahun atau lebih, penjara seumur hidup, atau hukuman mati. Pada kekerasan fisik, <strong>4 dari 7 kasus</strong> berakhir bebas atau penjara di bawah satu tahun.</p>
+          </article>
+        </div>
+        <p class="analysis-method-copy">Angka mengikuti laporan terbit dan mencakup kasus yang ditemukan dalam pemberitaan.</p>
+      </div>
+
+      <div class="gathering-links case-links">
+        <a href="https://projectmultatuli.org/ketika-polisi-jadi-pelaku-dari-penyadapan-presiden-pengedar-narkotika-sampai-pembunuhan/" target="_blank" rel="noopener">Baca liputan dan metodologi</a>
+        <a href="https://drive.google.com/file/d/1rpR7uF9LXyEFpulPL-i7SA0AkkbHqPuy/view?usp=sharing" target="_blank" rel="noopener">Buka data Pantau Polisi</a>
+        <a href="https://mawakresna.github.io/visualisasi-data/" target="_blank" rel="noopener">Lihat visualisasi liputan</a>
+      </div>
+    </section>
+    <section class="gathering-slide practice-slide" id="slide-12" data-slide aria-labelledby="practice-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="practice-title" tabindex="-1">Latihan membuat konten data</h2>
+        <p>Dari data ketenagakerjaan Jambi ke satu konten media sosial.</p>
+      </div>
+
+      <div class="gathering-panel">
+        <a class="visualization-site-link" href="./assets/keadaan-angkatan-kerja-jambi-februari-2026.pdf" target="_blank" rel="noopener">
+          <strong>Keadaan Angkatan Kerja Provinsi Jambi</strong>
+          <span>BPS Provinsi Jambi · Februari 2026</span>
+          <span>Buka PDF</span>
+        </a>
+        <div class="gathering-instructions">
+          <h3>Tugas peserta</h3>
+          <ol>
+            <li><strong>Pilih satu angle.</strong> Telusuri tabel di PDF dan pilih temuan yang paling menarik bagi audiensmu.</li>
+            <li><strong>Buat satu konten medsos.</strong> Salin angka yang kamu perlukan ke tabel kerja. Tulis judul dan buat visual yang mendukung angle dengan AI pilihanmu atau DataViz IDJN.</li>
+            <li><strong>Cek kontenmu.</strong> Cocokkan angka, satuan, dan periode dengan tabel asli. Cantumkan sumber serta nomor tabel atau halaman.</li>
+          </ol>
+          <p class="gathering-links"><a href="https://dataviz.idjnetwork.org/" target="_blank" rel="noopener">Buka DataViz IDJN</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

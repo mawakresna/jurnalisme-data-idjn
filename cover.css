@@ -1049,7 +1049,7 @@ h1 span {
 .benchmark-preview img {
   display: block;
   width: 100%;
-  height: clamp(10rem, 20cqw, 16.25rem);
+  height: clamp(10rem, 17.5cqw, 15rem);
   object-fit: contain;
   background: #ecebf2;
 }

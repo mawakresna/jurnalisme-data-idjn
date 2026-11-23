@@ -175,7 +175,10 @@ if (benchmark) {
     alternative.hidden = !preview.dataset.alternative;
     if (!alternative.hidden) alternative.href = preview.dataset.alternative;
     frame.title = `Unggahan Instagram · ${heading.textContent}`;
-    frame.src = new URL('embed/', preview.href).href;
+    const postUrl = new URL(preview.href);
+    const embedUrl = new URL('embed/', postUrl);
+    embedUrl.search = postUrl.search;
+    frame.src = embedUrl.href;
     dialog.showModal();
   });
 

@@ -1034,6 +1034,7 @@ h1 span {
 }
 
 .benchmark-grid[hidden] { display: none; }
+.benchmark-grid--four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
 .benchmark-card {
   overflow: hidden;
@@ -1549,6 +1550,7 @@ h1 span {
 @container (max-width: 56rem) {
   .carousel-examples { --visible-cards: 2; }
   .gathering-directory ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .benchmark-grid--four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @container (max-width: 58rem) {
@@ -1575,6 +1577,8 @@ h1 span {
   .story-slide { gap: .65rem; padding-block: .9rem; }
   .story-tables .analysis-data :is(th, td) { padding-block: .08em; }
   .benchmark-preview img { height: min(32svh, 20cqw); }
+  .benchmark-grid--four .benchmark-preview img { height: min(24svh, 20cqw); }
+  .benchmark-grid--four .benchmark-copy { padding-block: .5rem; }
 }
 
 @container (max-width: 35rem) {

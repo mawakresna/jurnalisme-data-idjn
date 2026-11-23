@@ -1002,13 +1002,26 @@ h1 span {
   border-top: 1px solid rgb(53 60 93 / 20%);
 }
 
-.analysis-cover .data-value-equation {
+.data-trust-slide { align-content: center; }
+
+.data-trust-slide .analysis-cover { padding: clamp(1.4rem, 5.5cqw, 5.5rem); }
+
+.data-value-equation {
   margin: 0;
-  font-size: clamp(1.85rem, 5.15cqw, 5.2rem);
+  font-size: clamp(2.1rem, 5.7cqw, 5.7rem);
+  font-weight: 800;
+  line-height: 1.06;
+  letter-spacing: -.05em;
+  text-wrap: balance;
 }
 
 .data-value-equation span { color: #ffdb75; }
-.data-value-reasons dl { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.data-value-reasons dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.data-value-reasons dl > :first-child {
+  grid-column: 1 / -1;
+  background: #e1f4f6;
+}
 
 .ethics-panel { border-inline-start-color: var(--yellow); }
 .ethics-panel dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1442,7 +1455,6 @@ h1 span {
 @container (max-width: 56rem) {
   .carousel-examples { --visible-cards: 2; }
   .gathering-directory ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .data-value-reasons dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @container (max-width: 58rem) {

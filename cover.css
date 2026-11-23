@@ -265,13 +265,12 @@ h1 span {
 
 .carousel-example:focus-visible { outline: 3px solid var(--slate); outline-offset: -3px; }
 
-.examples-slide h2, .data-value-question {
+.examples-slide h2 {
   width: min(100%, 29ch);
   justify-self: center;
   margin: 0;
   color: var(--slate);
   font-size: clamp(1.28rem, 3.25cqw, 3.75rem);
-  font-weight: 700;
   line-height: 1.12;
   letter-spacing: -.043em;
   text-align: center;
@@ -1444,7 +1443,7 @@ h1 span {
     gap: clamp(1rem, 3.5cqw, 2.3rem);
   }
   .carousel-example img { height: min(56cqw, 54svh, 34rem); }
-  .examples-slide h2, .data-value-question { font-size: clamp(1.56rem, 6cqw, 3.3rem); }
+  .examples-slide h2 { font-size: clamp(1.56rem, 6cqw, 3.3rem); }
 
   .workflow-slide {
     padding: clamp(2rem, 11svh, 5.5rem) 6cqw 2rem;

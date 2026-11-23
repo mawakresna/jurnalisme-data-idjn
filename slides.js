@@ -28,11 +28,15 @@ function syncSlide() {
 const isControl = (target) => target instanceof Element && target.closest(controls);
 const capturesGesture = (target) => isControl(target) && !target.closest('.carousel-example');
 
-const gallery = document.querySelector('.examples-gallery');
-if (gallery) {
+document.querySelectorAll('.examples-gallery').forEach((gallery) => {
   const track = gallery.querySelector('.carousel-examples');
   const previous = gallery.querySelector('.gallery-button--previous');
   const next = gallery.querySelector('.gallery-button--next');
+  const source = document.getElementById(track.dataset.gallerySource);
+
+  if (source) {
+    track.replaceChildren(...Array.from(source.children, (item) => item.cloneNode(true)));
+  }
 
   function updateGalleryButtons() {
     const end = track.scrollWidth - track.clientWidth;
@@ -54,7 +58,7 @@ if (gallery) {
   next.addEventListener('click', () => moveGallery(1, next));
   track.addEventListener('scroll', updateGalleryButtons, { passive: true });
   new ResizeObserver(updateGalleryButtons).observe(track);
-}
+});
 
 const workflow = document.querySelector('.workflow-slide');
 if (workflow) {

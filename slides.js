@@ -171,14 +171,22 @@ if (benchmark) {
 
     event.preventDefault();
     heading.textContent = preview.closest('.benchmark-card').querySelector('h3').textContent;
+    const { youtubeEmbed } = preview.dataset;
+    const platform = youtubeEmbed ? 'YouTube' : 'Instagram';
     original.href = preview.href;
+    original.textContent = `Buka di ${platform}`;
     alternative.hidden = !preview.dataset.alternative;
     if (!alternative.hidden) alternative.href = preview.dataset.alternative;
-    frame.title = `Unggahan Instagram · ${heading.textContent}`;
-    const postUrl = new URL(preview.href);
-    const embedUrl = new URL('embed/', postUrl);
-    embedUrl.search = postUrl.search;
-    frame.src = embedUrl.href;
+    dialog.classList.toggle('benchmark-dialog--wide', Boolean(youtubeEmbed));
+    frame.title = `${platform} · ${heading.textContent}`;
+    if (youtubeEmbed) {
+      frame.src = youtubeEmbed;
+    } else {
+      const postUrl = new URL(preview.href);
+      const embedUrl = new URL('embed/', postUrl);
+      embedUrl.search = postUrl.search;
+      frame.src = embedUrl.href;
+    }
     dialog.showModal();
   });
 

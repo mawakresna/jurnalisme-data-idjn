@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap">
-  <link rel="stylesheet" href="./cover.css?v=4">
+  <link rel="stylesheet" href="./cover.css?v=5">
   <script src="./assets/sakernas-jambi.js" defer></script>
-  <script src="./slides.js?v=4" defer></script>
+  <script src="./slides.js?v=5" defer></script>
 </head>
 <body>
   <main class="stage" aria-label="Jurnalisme data untuk media sosial">
@@ -995,56 +995,71 @@
         <p>Amati cara media membuka cerita, menampilkan bukti, dan menjelaskan temuan.</p>
       </div>
 
-      <div class="gathering-tabs" role="tablist" aria-label="Format konten Instagram" data-tab-list>
-        <button type="button" role="tab" id="tab-benchmark-video" aria-controls="panel-benchmark-video" aria-selected="true">Video (4)</button>
+      <div class="gathering-tabs" role="tablist" aria-label="Format konten media sosial" data-tab-list>
+        <button type="button" role="tab" id="tab-benchmark-video" aria-controls="panel-benchmark-video" aria-selected="true">Video (5)</button>
         <button type="button" role="tab" id="tab-benchmark-karusel" aria-controls="panel-benchmark-karusel" aria-selected="false" tabindex="-1">Karusel (4)</button>
       </div>
 
-      <div class="benchmark-grid benchmark-grid--four" role="tabpanel" id="panel-benchmark-video" aria-labelledby="tab-benchmark-video" tabindex="0">
-        <article class="benchmark-card">
-          <a class="benchmark-preview" href="https://www.instagram.com/reel/DHUMzNeC700/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-usaid benchmark-title-usaid" data-alternative="https://www.youtube.com/watch?v=MG6Q1C5ypBg">
-            <img src="./assets/benchmark-nyt-opinion-usaid.jpg" loading="lazy" alt="">
-            <span class="benchmark-action" id="benchmark-action-usaid">Lihat video</span>
-          </a>
-          <div class="benchmark-copy">
-            <p class="benchmark-source">New York Times Opinion</p>
-            <h3 id="benchmark-title-usaid">Dampak pemangkasan USAID di Sudan Selatan</h3>
-            <p class="analysis-method-copy">Perhatikan bagaimana klaim publik diuji dengan data dan temuan liputan di lapangan.</p>
-          </div>
-        </article>
-        <article class="benchmark-card">
-          <a class="benchmark-preview" href="https://www.instagram.com/reel/DHE_vlbigdc/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-pandemi benchmark-title-pandemi">
-            <img src="./assets/benchmark-nyt-belajar-pandemi.jpg" loading="lazy" alt="">
-            <span class="benchmark-action" id="benchmark-action-pandemi">Lihat video</span>
-          </a>
-          <div class="benchmark-copy">
-            <p class="benchmark-source">The New York Times</p>
-            <h3 id="benchmark-title-pandemi">Dampak pandemi pada murid di AS</h3>
-            <p class="analysis-method-copy">Tiga grafik membantu menjelaskan pemulihan belajar dan kesenjangan yang melebar.</p>
-          </div>
-        </article>
-        <article class="benchmark-card">
-          <a class="benchmark-preview" href="https://www.instagram.com/reel/DfPeZhQKOQA/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-pemilu benchmark-title-pemilu">
-            <img src="./assets/benchmark-nyt-hitung-suara.jpg" loading="lazy" alt="">
-            <span class="benchmark-action" id="benchmark-action-pemilu">Lihat video</span>
-          </a>
-          <div class="benchmark-copy">
-            <p class="benchmark-source">The New York Times</p>
-            <h3 id="benchmark-title-pemilu">Kenapa hasil awal pemilu AS bisa berubah?</h3>
-            <p class="analysis-method-copy">Jelaskan urutan penghitungan suara agar penonton memahami kenapa angka awal bisa berubah.</p>
-          </div>
-        </article>
-        <article class="benchmark-card">
-          <a class="benchmark-preview" href="https://www.instagram.com/reel/Df8mMFqzqCV/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-kampus benchmark-title-kampus">
-            <img src="./assets/benchmark-katadata-kampus.jpg" loading="lazy" alt="">
-            <span class="benchmark-action" id="benchmark-action-kampus">Lihat video</span>
-          </a>
-          <div class="benchmark-copy">
-            <p class="benchmark-source">Katadata Indonesia</p>
-            <h3 id="benchmark-title-kampus">Peringkat kampus Indonesia di Asia Tenggara</h3>
-            <p class="analysis-method-copy">Perhatikan bagaimana Katadata membedakan peringkat Asia Tenggara dan dunia dari data QS 2027.</p>
-          </div>
-        </article>
+      <div class="examples-gallery benchmark-video-gallery" role="tabpanel" id="panel-benchmark-video" aria-labelledby="tab-benchmark-video" tabindex="0">
+        <button class="gallery-button gallery-button--previous" type="button" aria-label="Geser ke video sebelumnya" aria-controls="benchmark-video-track" hidden></button>
+        <div class="carousel-examples benchmark-video-track" id="benchmark-video-track">
+          <article class="benchmark-card">
+            <a class="benchmark-preview" href="https://www.instagram.com/reel/DHUMzNeC700/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-usaid benchmark-title-usaid" data-alternative="https://www.youtube.com/watch?v=MG6Q1C5ypBg">
+              <img src="./assets/benchmark-nyt-opinion-usaid.jpg" loading="lazy" alt="">
+              <span class="benchmark-action" id="benchmark-action-usaid">Lihat video</span>
+            </a>
+            <div class="benchmark-copy">
+              <p class="benchmark-source">New York Times Opinion</p>
+              <h3 id="benchmark-title-usaid">Dampak pemangkasan USAID di Sudan Selatan</h3>
+              <p class="analysis-method-copy">Perhatikan bagaimana klaim publik diuji dengan data dan temuan liputan di lapangan.</p>
+            </div>
+          </article>
+          <article class="benchmark-card">
+            <a class="benchmark-preview" href="https://www.youtube.com/watch?v=0NMcfuWbBdA" target="_blank" rel="noopener" aria-labelledby="benchmark-action-vaksinasi benchmark-title-vaksinasi" data-youtube-embed="https://www.youtube-nocookie.com/embed/0NMcfuWbBdA">
+              <img src="./assets/benchmark-narasi-vaksinasi.jpg" loading="lazy" alt="">
+              <span class="benchmark-action" id="benchmark-action-vaksinasi">Lihat video</span>
+            </a>
+            <div class="benchmark-copy">
+              <p class="benchmark-source">Narasi Newsroom · Buka Data</p>
+              <h3 id="benchmark-title-vaksinasi">Menguji target vaksinasi COVID-19</h3>
+              <p class="analysis-method-copy">Simak cara narator dan grafik menunjukkan jarak antara target dan laju vaksinasi pada 2021.</p>
+            </div>
+          </article>
+          <article class="benchmark-card">
+            <a class="benchmark-preview" href="https://www.instagram.com/reel/DHE_vlbigdc/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-pandemi benchmark-title-pandemi">
+              <img src="./assets/benchmark-nyt-belajar-pandemi.jpg" loading="lazy" alt="">
+              <span class="benchmark-action" id="benchmark-action-pandemi">Lihat video</span>
+            </a>
+            <div class="benchmark-copy">
+              <p class="benchmark-source">The New York Times</p>
+              <h3 id="benchmark-title-pandemi">Dampak pandemi pada murid di AS</h3>
+              <p class="analysis-method-copy">Tiga grafik membantu menjelaskan pemulihan belajar dan kesenjangan yang melebar.</p>
+            </div>
+          </article>
+          <article class="benchmark-card">
+            <a class="benchmark-preview" href="https://www.instagram.com/reel/DfPeZhQKOQA/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-pemilu benchmark-title-pemilu">
+              <img src="./assets/benchmark-nyt-hitung-suara.jpg" loading="lazy" alt="">
+              <span class="benchmark-action" id="benchmark-action-pemilu">Lihat video</span>
+            </a>
+            <div class="benchmark-copy">
+              <p class="benchmark-source">The New York Times</p>
+              <h3 id="benchmark-title-pemilu">Kenapa hasil awal pemilu AS bisa berubah?</h3>
+              <p class="analysis-method-copy">Jelaskan urutan penghitungan suara agar penonton memahami kenapa angka awal bisa berubah.</p>
+            </div>
+          </article>
+          <article class="benchmark-card">
+            <a class="benchmark-preview" href="https://www.instagram.com/reel/Df8mMFqzqCV/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-kampus benchmark-title-kampus">
+              <img src="./assets/benchmark-katadata-kampus.jpg" loading="lazy" alt="">
+              <span class="benchmark-action" id="benchmark-action-kampus">Lihat video</span>
+            </a>
+            <div class="benchmark-copy">
+              <p class="benchmark-source">Katadata Indonesia</p>
+              <h3 id="benchmark-title-kampus">Peringkat kampus Indonesia di Asia Tenggara</h3>
+              <p class="analysis-method-copy">Perhatikan bagaimana Katadata membedakan peringkat Asia Tenggara dan dunia dari data QS 2027.</p>
+            </div>
+          </article>
+        </div>
+        <button class="gallery-button gallery-button--next" type="button" aria-label="Geser ke video berikutnya" aria-controls="benchmark-video-track" hidden></button>
       </div>
 
       <div class="benchmark-grid benchmark-grid--four" role="tabpanel" id="panel-benchmark-karusel" aria-labelledby="tab-benchmark-karusel" tabindex="0" hidden>
@@ -1099,7 +1114,7 @@
           <h3 id="benchmark-post-title"></h3>
           <form method="dialog"><button type="submit" autofocus>Tutup</button></form>
         </div>
-        <iframe title="Unggahan Instagram" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Contoh konten" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
         <p class="gathering-links">
           <a class="benchmark-original" target="_blank" rel="noopener">Buka di Instagram</a>
           <a class="benchmark-alternative" target="_blank" rel="noopener" hidden>Versi YouTube</a>

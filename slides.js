@@ -157,6 +157,31 @@ if (storySlide) {
   });
 }
 
+const benchmark = document.getElementById('benchmarking');
+if (benchmark) {
+  const dialog = benchmark.querySelector('dialog');
+  const heading = dialog.querySelector('h3');
+  const frame = dialog.querySelector('iframe');
+  const original = dialog.querySelector('.benchmark-original');
+  const alternative = dialog.querySelector('.benchmark-alternative');
+
+  benchmark.addEventListener('click', (event) => {
+    const preview = event.target.closest('.benchmark-preview');
+    if (!preview || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+
+    event.preventDefault();
+    heading.textContent = preview.closest('.benchmark-card').querySelector('h3').textContent;
+    original.href = preview.href;
+    alternative.hidden = !preview.dataset.alternative;
+    if (!alternative.hidden) alternative.href = preview.dataset.alternative;
+    frame.title = `Unggahan Instagram · ${heading.textContent}`;
+    frame.src = new URL('embed/', preview.href).href;
+    dialog.showModal();
+  });
+
+  dialog.addEventListener('close', () => frame.removeAttribute('src'));
+}
+
 const tptTable = document.getElementById('tpt-jambi-table');
 if (tptTable) {
   const aiTable = tptTable.cloneNode(true);

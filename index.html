@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap">
-  <link rel="stylesheet" href="./cover.css">
+  <link rel="stylesheet" href="./cover.css?v=2">
   <script src="./assets/sakernas-jambi.js" defer></script>
-  <script src="./slides.js?v=2" defer></script>
+  <script src="./slides.js?v=3" defer></script>
 </head>
 <body>
   <main class="stage" aria-label="Jurnalisme data untuk media sosial">
@@ -989,6 +989,102 @@
         <div id="tpt-jambi-table-ai"></div>
       </div>
     </section>
+    <section class="gathering-slide benchmark-slide" id="benchmarking" data-slide aria-labelledby="benchmark-title" hidden>
+      <div class="workflow-intro">
+        <h2 id="benchmark-title" tabindex="-1">Benchmarking konten data</h2>
+        <p>Amati cara media membuka cerita, menampilkan bukti, dan menjelaskan temuan.</p>
+      </div>
+
+      <div class="gathering-tabs" role="tablist" aria-label="Format konten Instagram" data-tab-list>
+        <button type="button" role="tab" id="tab-benchmark-video" aria-controls="panel-benchmark-video" aria-selected="true">Video (3)</button>
+        <button type="button" role="tab" id="tab-benchmark-karusel" aria-controls="panel-benchmark-karusel" aria-selected="false" tabindex="-1">Karusel (3)</button>
+      </div>
+
+      <div class="benchmark-grid" role="tabpanel" id="panel-benchmark-video" aria-labelledby="tab-benchmark-video" tabindex="0">
+        <article class="benchmark-card">
+          <a class="benchmark-preview" href="https://www.instagram.com/reel/DHUMzNeC700/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-usaid benchmark-title-usaid" data-alternative="https://www.youtube.com/watch?v=MG6Q1C5ypBg">
+            <img src="./assets/benchmark-nyt-opinion-usaid.jpg" loading="lazy" alt="">
+            <span class="benchmark-action" id="benchmark-action-usaid">Lihat video</span>
+          </a>
+          <div class="benchmark-copy">
+            <p class="benchmark-source">New York Times Opinion</p>
+            <h3 id="benchmark-title-usaid">Dampak pemangkasan USAID di Sudan Selatan</h3>
+            <p class="analysis-method-copy">Perhatikan bagaimana klaim publik diuji dengan data dan temuan liputan di lapangan.</p>
+          </div>
+        </article>
+        <article class="benchmark-card">
+          <a class="benchmark-preview" href="https://www.instagram.com/reel/DHE_vlbigdc/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-pandemi benchmark-title-pandemi">
+            <img src="./assets/benchmark-nyt-belajar-pandemi.jpg" loading="lazy" alt="">
+            <span class="benchmark-action" id="benchmark-action-pandemi">Lihat video</span>
+          </a>
+          <div class="benchmark-copy">
+            <p class="benchmark-source">The New York Times</p>
+            <h3 id="benchmark-title-pandemi">Dampak pandemi pada murid di AS</h3>
+            <p class="analysis-method-copy">Tiga grafik membantu menjelaskan pemulihan belajar dan kesenjangan yang melebar.</p>
+          </div>
+        </article>
+        <article class="benchmark-card">
+          <a class="benchmark-preview" href="https://www.instagram.com/reel/DfPeZhQKOQA/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-pemilu benchmark-title-pemilu">
+            <img src="./assets/benchmark-nyt-hitung-suara.jpg" loading="lazy" alt="">
+            <span class="benchmark-action" id="benchmark-action-pemilu">Lihat video</span>
+          </a>
+          <div class="benchmark-copy">
+            <p class="benchmark-source">The New York Times</p>
+            <h3 id="benchmark-title-pemilu">Kenapa hasil awal pemilu AS bisa berubah?</h3>
+            <p class="analysis-method-copy">Jelaskan urutan penghitungan suara agar penonton memahami kenapa angka awal bisa berubah.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="benchmark-grid" role="tabpanel" id="panel-benchmark-karusel" aria-labelledby="tab-benchmark-karusel" tabindex="0" hidden>
+        <article class="benchmark-card">
+          <a class="benchmark-preview" href="https://www.instagram.com/p/DcP36XaE-hl/?img_index=1" target="_blank" rel="noopener" aria-labelledby="benchmark-action-mbg benchmark-title-mbg">
+            <img src="./assets/benchmark-nowdots-mbg.jpg" loading="lazy" alt="">
+            <span class="benchmark-action" id="benchmark-action-mbg">Lihat karusel</span>
+          </a>
+          <div class="benchmark-copy">
+            <p class="benchmark-source">NowDots</p>
+            <h3 id="benchmark-title-mbg">Data ganda penerima Makan Bergizi Gratis</h3>
+            <p class="analysis-method-copy">Bedakan jumlah catatan ganda dari jumlah orang yang benar-benar menerima makanan dua kali.</p>
+          </div>
+        </article>
+        <article class="benchmark-card">
+          <a class="benchmark-preview" href="https://www.instagram.com/p/DXpMbBclVCI/?img_index=1" target="_blank" rel="noopener" aria-labelledby="benchmark-action-drone benchmark-title-drone">
+            <img src="./assets/benchmark-nyt-biaya-drone.jpg" loading="lazy" alt="">
+            <span class="benchmark-action" id="benchmark-action-drone">Lihat karusel</span>
+          </a>
+          <div class="benchmark-copy">
+            <p class="benchmark-source">The New York Times</p>
+            <h3 id="benchmark-title-drone">Harga drone dan biaya pencegatan</h3>
+            <p class="analysis-method-copy">Bandingkan biaya dalam satuan yang sama. Perhatikan bagaimana ilustrasi memberi konteks pada angka.</p>
+          </div>
+        </article>
+        <article class="benchmark-card">
+          <a class="benchmark-preview" href="https://www.instagram.com/p/Deo2S2yDj6R/" target="_blank" rel="noopener" aria-labelledby="benchmark-action-memphis benchmark-title-memphis">
+            <img src="./assets/benchmark-reuters-memphis.jpg" loading="lazy" alt="">
+            <span class="benchmark-action" id="benchmark-action-memphis">Lihat karusel</span>
+          </a>
+          <div class="benchmark-copy">
+            <p class="benchmark-source">Reuters · Grafis Ally J. Levine</p>
+            <h3 id="benchmark-title-memphis">Memphis terbagi tiga distrik</h3>
+            <p class="analysis-method-copy">Peta menunjukkan perubahan batas distrik. Data demografi dan pendanaan memberi konteks bagi dampaknya.</p>
+          </div>
+        </article>
+      </div>
+
+      <dialog class="benchmark-dialog" aria-labelledby="benchmark-post-title" data-slide-interactive>
+        <div class="benchmark-dialog-head">
+          <h3 id="benchmark-post-title"></h3>
+          <form method="dialog"><button type="submit" autofocus>Tutup</button></form>
+        </div>
+        <iframe title="Unggahan Instagram" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p class="gathering-links">
+          <a class="benchmark-original" target="_blank" rel="noopener">Buka di Instagram</a>
+          <a class="benchmark-alternative" target="_blank" rel="noopener" hidden>Versi YouTube</a>
+        </p>
+      </dialog>
+    </section>
+
     <section class="gathering-slide case-study-slide" id="slide-11" data-slide aria-labelledby="case-study-title" hidden>
       <div class="workflow-intro">
         <h2 id="case-study-title" tabindex="-1">Ketika polisi jadi pelaku</h2>
